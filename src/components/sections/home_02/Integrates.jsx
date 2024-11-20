@@ -166,7 +166,7 @@ const Integrates = () => {
           {/* Section Spacer */}
         </div>
         {/* Section Spacer */}
-        <div className='absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#5636C7] to-[#5028DD] blur-[250px]'></div>
+        <div className='absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#ca96f9] to-[#540c94] blur-[250px]'></div>
       </div>
     </section>
   );

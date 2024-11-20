@@ -6,10 +6,8 @@ const Member = ({
   img,
   name,
   info,
-  facebook,
-  twitter,
+  mail,
   linkedin,
-  instagram,
 }) => {
   return (
     <li
@@ -20,7 +18,7 @@ const Member = ({
       <div className='xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]'>
         <img
           src={img}
-          alt='team-member-img-1'
+          alt='team-member'
           width={376}
           height={400}
           className='h-full w-full object-cover'
@@ -37,10 +35,8 @@ const Member = ({
           <span className='text-[21px]'>{info}</span>
           {
             <Team_Social
-              facebook={facebook}
-              twitter={twitter}
+              mail={mail}
               linkedin={linkedin}
-              instagram={instagram}
             />
           }
         </div>

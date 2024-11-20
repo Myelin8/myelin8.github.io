@@ -506,7 +506,11 @@
 }
 
 .site-menu-main .sub-menu--item:hover>a {
-  color: #FE330A;
+  color: #540c94;
+}
+
+.nav-link-item:hover {
+  color: #540c94;
 }
 
 @media (min-width: 992px) {

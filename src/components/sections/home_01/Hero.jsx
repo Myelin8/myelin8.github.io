@@ -6,26 +6,24 @@ const Hero = () => {
   return (
     <>
       {/*...::: Hero Section Start :::... */}
-      <section id='section-hero'>
-        <video autoPlay loop muted playsInline className='w-full absolute top-0 z-10 rounded-b-3xl'>
+      <section id='section-hero' className="relative h-screen mb-20">
+        <video autoPlay loop muted playsInline className="w-full h-screen object-cover absolute top-0 left-0 z-10">
           <source src='/public/assets/videos/background.mp4' type='video/mp4' />
         </video>
-        <div className='relative z-20 overflow-hidden rounded-bl-[30px] rounded-br-[30px] pb-20 pt-28 lg:rounded-bl-[50px] lg:rounded-br-[50px] lg:pb-24 lg:pt-32 xl:pt-40 xxl:pb-[133px] xxl:pt-[195px]'>
-          <div className='global-container'>
-            <div className='mt-36 mb-14 flex flex-col items-center text-center lg:mb-20 text-white'>
-              <div
-                className='jos hero-img overflow-hidden mb-6 max-w-[900px] mb-[480px]'
-                data-jos_animation='zoom'
-              >
-                <img
-                  src='assets/img/logo.png'
-                  alt='hero-dashboard'
-                  width='1296'
-                  height='640'
-                  className='h-auto w-full'
-                />
-              </div>
-              {/* Hero Title 
+        <div className="relative z-20 flex items-center justify-center h-full text-center text-white">
+          <div
+            className="jos hero-img overflow-hidden max-w-[900px]"
+            data-jos_animation="zoom"
+          >
+            <img
+              src="assets/img/logo.png"
+              alt="hero-dashboard"
+              width="1296"
+              height="640"
+              className="h-auto w-full"
+            />
+          </div>
+          {/* Hero Title 
               <div
                 className='jos flex flex-wrap justify-center gap-6 mb-[480px]'
                 data-jos_animation='fade'
@@ -42,7 +40,7 @@ const Hero = () => {
                 >
                   Learn more
                 </Link>
-              </div>*/}
+              </div>
             </div>
 
             <div className='my-10 h-[1px] w-full bg-[#DBD6CF] lg:my-16 xl:my-20'></div>
@@ -166,6 +164,7 @@ const Hero = () => {
               </Swiper>
             </div>
           </div>
+          */}
         </div>
       </section>
       {/*...::: Hero Section End :::... */}

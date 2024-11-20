@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import Footer_01 from '../footer/Footer_01';
+import Footer_02 from '../footer/Footer_02';
 import Header from '../header/Header';
 
 const Layout = () => {
@@ -7,8 +7,8 @@ const Layout = () => {
     <div className='page-wrapper relative z-[1] bg-white'>
       {/*...::: Header Start :::... */}
       <Header
-        loginCSS='button hidden rounded-[50px] border-[#7F8995] bg-transparent text-black after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block'
-        signupCSS='button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block'
+        dashboardCSS='button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block'
+        light={window.location.pathname === '/'}
       />
       {/*...::: Header End :::... */}
 
@@ -17,7 +17,7 @@ const Layout = () => {
       {/*...::: Main End :::... */}
 
       {/*...::: Footer Start :::... */}
-      <Footer_01 />
+      <Footer_02 />
       {/*...::: Footer End :::... */}
     </div>
   );

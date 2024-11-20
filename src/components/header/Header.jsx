@@ -4,12 +4,12 @@ import Navbar from '../navbar/Navbar';
 import Logo from '../logo/Logo';
 
 // eslint-disable-next-line react/prop-types
-const Header = ({ loginCSS, signupCSS, navColor, light }) => {
+const Header = ({ dashboardCSS, navColor, light }) => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
     <header
-      className='site-header site-header--absolute is--white py-3 fixed'
+      className='site-header site-header--absolute is--white py-3'
       id='sticky-menu'
     >
       <div className='global-container lg:w-fit lg:bg-white lg:shadow-md lg:rounded-full lg:px-5 lg:mt-4'>
@@ -26,7 +26,7 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
           {/* Header Navigation */}
           {/* Header User Event */}
           <div className='flex items-center gap-6'>
-            <Link to='https://dashboard.myelin8.com' className={signupCSS}>
+            <Link to='https://dashboard.myelin8.com' className={dashboardCSS}>
               Go to Dashboard
             </Link>
             {/* Responsive Off-canvas Menu Button */}

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { IoIosMail } from "react-icons/io";
 
 const Footer_02 = () => {
   const handleSubmit = (e) => {
@@ -17,7 +18,7 @@ const Footer_02 = () => {
             <div className='global-container'>
               {/* Section Content Block */}
               <div className='mx-auto mb-10 text-center md:mb-16 md:max-w-lg lg:mb-20 lg:max-w-xl xl:max-w-3xl'>
-                <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
+                <h2 className='text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
                   Let's get started and enjoy the power of AI
                 </h2>
               </div>
@@ -68,7 +69,7 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         to='/'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
                       >
                         Home
                       </Link>
@@ -76,7 +77,7 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         to='/about'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
                       >
                         About Us
                       </Link>
@@ -84,7 +85,7 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         to='/services'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
                       >
                         Services
                       </Link>
@@ -92,7 +93,7 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         to='/pricing'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
                       >
                         Pricing
                       </Link>
@@ -100,101 +101,20 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         to='/contact'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
                       >
                         Contact
                       </Link>
                     </li>
                   </ul>
                 </div>
-                {/* Footer Widget */}
-                {/* Footer Widget Item */}
-                <div className='flex flex-col gap-y-6'>
-                  {/* Footer Title */}
-                  <h4 className='text-[21px] font-semibold capitalize text-white'>
-                    Utility pages
-                  </h4>
-                  {/* Footer Title */}
-                  {/* Footer Navbar */}
-                  <ul className='flex flex-col gap-y-[10px] capitalize'>
-                    <li>
-                      <Link
-                        to='/signup'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        Signup
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to='/login'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        Login
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to='/error-404'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        404 Not Found
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to='/reset-password'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        Password Reset
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                {/* Footer Widget Item */}
-                {/* Footer Widget Item */}
-                <div className='flex flex-col gap-y-6'>
-                  {/* Footer Title */}
-                  <h4 className='text-[21px] font-semibold capitalize text-white'>
-                    Utility pages
-                  </h4>
-                  {/* Footer Title */}
-                  {/* Footer Navbar */}
-                  <ul className='flex flex-col gap-y-[10px] capitalize'>
-                    <li>
-                      <Link
-                        to='/signup'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        Signup
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to='/login'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        Login
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to='/error-404'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        404 Not found
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to='/reset-password'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        Password Reset
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+                <Link to='/'>
+                  <img
+                    src={'assets/img/icon-white.png'}
+                    alt='Logo'
+                    width='200'
+                  />
+                </Link>
                 {/* Footer Widget Item */}
                 {/* Footer Widget Item */}
                 <div className='flex flex-col gap-y-6'>
@@ -204,66 +124,12 @@ const Footer_02 = () => {
                   </h4>
                   {/* Footer Title */}
                   {/* Footer Navbar */}
-                  <ul className='flex flex-col gap-y-[15px] capitalize'>
+                  <ul className='flex flex-col gap-y-[15px]'>
                     <li>
                       <Link
                         rel='noopener noreferrer'
                         target='_blank'
-                        to='http://www.facebook.com'
-                        className='group flex items-center gap-x-3'
-                      >
-                        <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
-                          <img
-                            src='assets/img/th-1/facebook-icon-white.svg'
-                            alt='facebook-icon-white'
-                            width={14}
-                            height={14}
-                          />
-                        </div>
-                        <span className='inline-block flex-1'>Facebook</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        rel='noopener noreferrer'
-                        target='_blank'
-                        to='http://www.twitter.com'
-                        className='group flex items-center gap-x-3'
-                      >
-                        <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
-                          <img
-                            src='assets/img/th-1/twitter-icon-white.svg'
-                            alt='twitter-icon-white'
-                            width={14}
-                            height={14}
-                          />
-                        </div>
-                        <span className='inline-block flex-1'>Twitter</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        rel='noopener noreferrer'
-                        target='_blank'
-                        to='http://www.instagram.com'
-                        className='group flex items-center gap-x-3'
-                      >
-                        <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
-                          <img
-                            src='assets/img/th-1/instagram-icon-white.svg'
-                            alt='instagram-icon-white'
-                            width={14}
-                            height={14}
-                          />
-                        </div>
-                        <span className='inline-block flex-1'>Instagram</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        rel='noopener noreferrer'
-                        target='_blank'
-                        to='http://www.linkedin.com'
+                        to='https://www.linkedin.com/company/myelin-8'
                         className='group flex items-center gap-x-3'
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
@@ -275,6 +141,19 @@ const Footer_02 = () => {
                           />
                         </div>
                         <span className='inline-block flex-1'>Linkedin</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        rel='noopener noreferrer'
+                        target='_blank'
+                        to='mailto:geral@myelin8.com'
+                        className='group flex items-center gap-x-3'
+                      >
+                        <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
+                          <IoIosMail />
+                        </div>
+                        <span className='inline-block flex-1'>geral@myelin8.com</span>
                       </Link>
                     </li>
                   </ul>
@@ -294,18 +173,9 @@ const Footer_02 = () => {
           {/* Footer Bottom */}
           <div>
             <div className='global-container'>
-              <div className='flex flex-wrap items-center justify-center gap-5 text-center md:justify-between md:text-left'>
-                <Link to='/'>
-                  <img
-                    src='assets/img/logo-light.png'
-                    alt='logo-light'
-                    width={111}
-                    height={23}
-                  />
-                </Link>
+              <div className='text-center'>
                 <p>
-                  © Copyright {new Date().getFullYear()}, All Rights Reserved by
-                  Mthemeus
+                  Myelin8 {new Date().getFullYear()} © All Rights Reserved
                 </p>
               </div>
             </div>
@@ -314,7 +184,7 @@ const Footer_02 = () => {
         </div>
         {/* Section Container */}
         {/* Background Gradient */}
-        <div className='absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#5636C7] to-[#5028DD] blur-[250px]'></div>
+        <div className='absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#ca96f9] to-[#540c94] blur-[250px]'></div>
       </div>
     </footer>
   );

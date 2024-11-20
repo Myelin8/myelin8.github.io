@@ -1,7 +1,6 @@
 import Header from '../../components/header/Header';
-import Footer_02 from '../../components/footer/Footer_02';
 import Blog from '../../components/sections/home_02/Blog';
-import Hero from '../../components/sections/home_02/Hero';
+import Hero from '../../components/sections/home_01/Hero';
 import Feature from '../../components/sections/home_02/Feature';
 import Content_01 from '../../components/sections/home_02/Content_01';
 import Content_02 from '../../components/sections/home_02/Content_02';
@@ -14,12 +13,6 @@ function Home_02() {
   return (
     <>
       <div className='page-wrapper relative z-[1] bg-white'>
-        <Header
-          loginCSS='hidden border-b-2 border-transparent font-bold text-white transition-all duration-300 hover:border-colorOrangyRed hover:text-colorOrangyRed lg:inline-block'
-          signupCSS='button hidden rounded-[50px] border-none bg-colorViolet text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block'
-          navColor='is-text-white'
-          light
-        />
         <main className='main-wrapper relative overflow-hidden'>
           {/*...::: Hero Section Start :::... */}
           <Hero />
@@ -59,7 +52,6 @@ function Home_02() {
           <Faq />
           {/*...::: FAQ Section End :::... */}
         </main>
-        <Footer_02 />
       </div>
     </>
   );

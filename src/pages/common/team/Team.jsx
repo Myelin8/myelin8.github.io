@@ -39,7 +39,7 @@ const Team = () => {
                 >
                   <div className='flex h-full flex-col items-center justify-center text-center'>
                     <div className='text-3xl font-semibold leading-[1.2] tracking-[-1px] text-black xl:text-[40px]'>
-                      You want to join our amazing team
+                      Want to join our amazing team?
                     </div>
                     <p className='mb-6 mt-4 text-lg leading-[1.4] xl:mb-[30px] xl:text-[21px]'>
                       Specify the job you are applying for and introduce

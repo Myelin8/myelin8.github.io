@@ -22,7 +22,7 @@ const Map = () => {
               className='h-auto w-full'
             />
             {/* Location 1 */}
-            <div className='group absolute hidden sm:flex gap-2 sm:top-[10%] sm:left-[13%]'>
+            <div className='group absolute flex gap-2 top-[-10%] left-[32%] sm:top-[10%] sm:left-[35%] md:top-[16%] md:left-[36%] lg:top-[19%] lg:left-[36%]'>
               <div className='relative w-[50px] h-[50px]'>
                 <button className='group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300'>
                   <img
@@ -33,8 +33,8 @@ const Map = () => {
                     className='opacity-100 group-hover:opacity-0 transition-all duration-300'
                   />
                   <img
-                    src='assets/img/th-1/icon-orange-location-marker.svg'
-                    alt='icon-gray-location-marker'
+                    src='assets/img/th-1/icon-purple-location-marker.svg'
+                    alt='icon-purple-location-marker'
                     width={50}
                     height={50}
                     className='absolute opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300'
@@ -48,159 +48,15 @@ const Map = () => {
                       width={17}
                       height={17}
                     />
-                    Toronto, Canada
+                    Lisbon, Portugal
                   </div>
                   <address className='not-italic font-semibold'>
-                    Line 1: House/Flat 208, Venue Street
+                    Av. Jacques Delors 421 411, 2740-122 Porto Salvo
                   </address>
                 </div>
               </div>
             </div>
             {/* Location 1 */}
-            {/* Location 2 */}
-            <div className='group absolute hidden sm:flex gap-2 sm:top-[65%] sm:left-[18%]'>
-              <div className='relative w-[50px] h-[50px]'>
-                <button className='group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300'>
-                  <img
-                    src='assets/img/th-1/icon-gray-location-marker.svg'
-                    alt='icon-gray-location-marker'
-                    width={35}
-                    height={35}
-                    className='opacity-100 group-hover:opacity-0 transition-all duration-300'
-                  />
-                  <img
-                    src='assets/img/th-1/icon-orange-location-marker.svg'
-                    alt='icon-gray-location-marker'
-                    width={50}
-                    height={50}
-                    className='absolute opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300'
-                  />
-                </button>
-                <div className='absolute bg-white rounded-[8px] p-4 text-sm w-[170px] bottom-0 right-0 xl:right-[50px] xxl:right-auto xxl:left-[50px] opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 xl:translate-y-12 group-hover:translate-y-0'>
-                  <div className='flex gap-1 font-bold pb-3'>
-                    <img
-                      src='assets/img/th-1/icon-black-location-marker.svg'
-                      alt='icon-black-location-marker'
-                      width={17}
-                      height={17}
-                    />
-                    Sao Paulo, Brazil
-                  </div>
-                  <address className='not-italic font-semibold'>
-                    Line 1: House/Flat 208, Venue Street
-                  </address>
-                </div>
-              </div>
-            </div>
-            {/* Location 2 */}
-            {/* Location 3 */}
-            <div className='group absolute hidden sm:flex gap-2 sm:top-[38%] sm:left-[38%]'>
-              <div className='relative w-[50px] h-[50px]'>
-                <button className='group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300'>
-                  <img
-                    src='assets/img/th-1/icon-gray-location-marker.svg'
-                    alt='icon-gray-location-marker'
-                    width={35}
-                    height={35}
-                    className='opacity-100 group-hover:opacity-0 transition-all duration-300'
-                  />
-                  <img
-                    src='assets/img/th-1/icon-orange-location-marker.svg'
-                    alt='icon-gray-location-marker'
-                    width={50}
-                    height={50}
-                    className='absolute opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300'
-                  />
-                </button>
-                <div className='absolute bg-white rounded-[8px] p-4 text-sm w-[170px] bottom-0 right-0 xl:right-[50px] xxl:right-auto xxl:left-[50px] opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 xl:translate-y-12 group-hover:translate-y-0'>
-                  <div className='flex gap-1 font-bold pb-3'>
-                    <img
-                      src='assets/img/th-1/icon-black-location-marker.svg'
-                      alt='icon-black-location-marker'
-                      width={17}
-                      height={17}
-                    />
-                    Bamako, Mali
-                  </div>
-                  <address className='not-italic font-semibold'>
-                    Line 1: House/Flat 208, Venue Street
-                  </address>
-                </div>
-              </div>
-            </div>
-            {/* Location 3 */}
-            {/* Location 4 */}
-            <div className='group absolute hidden sm:flex gap-2 sm:top-[5%]  sm:left-[61%]'>
-              <div className='relative w-[50px] h-[50px]'>
-                <button className='group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300'>
-                  <img
-                    src='assets/img/th-1/icon-gray-location-marker.svg'
-                    alt='icon-gray-location-marker'
-                    width={35}
-                    height={35}
-                    className='opacity-100 group-hover:opacity-0 transition-all duration-300'
-                  />
-                  <img
-                    src='assets/img/th-1/icon-orange-location-marker.svg'
-                    alt='icon-gray-location-marker'
-                    width={50}
-                    height={50}
-                    className='absolute opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300'
-                  />
-                </button>
-                <div className='absolute bg-white rounded-[8px] p-4 text-sm w-[170px] bottom-0 right-0 xl:right-[50px] xxl:right-auto xxl:left-[50px] opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 xl:translate-y-12 group-hover:translate-y-0'>
-                  <div className='flex gap-1 font-bold pb-3'>
-                    <img
-                      src='assets/img/th-1/icon-black-location-marker.svg'
-                      alt='icon-black-location-marker'
-                      width={17}
-                      height={17}
-                    />
-                    Noril'sk, Russia
-                  </div>
-                  <address className='not-italic font-semibold'>
-                    Line 1: House/Flat 208, Venue Street
-                  </address>
-                </div>
-              </div>
-            </div>
-            {/* Location 4 */}
-            {/* Location 5 */}
-            <div className='group absolute hidden sm:flex gap-2 sm:top-[72%] sm:left-[88%]'>
-              <div className='relative w-[50px] h-[50px]'>
-                <button className='group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300'>
-                  <img
-                    src='assets/img/th-1/icon-gray-location-marker.svg'
-                    alt='icon-gray-location-marker'
-                    width={35}
-                    height={35}
-                    className='opacity-100 group-hover:opacity-0 transition-all duration-300'
-                  />
-                  <img
-                    src='assets/img/th-1/icon-orange-location-marker.svg'
-                    alt='icon-gray-location-marker'
-                    width={50}
-                    height={50}
-                    className='absolute opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300'
-                  />
-                </button>
-                <div className='absolute bg-white rounded-[8px] p-4 text-sm w-[170px] bottom-0 right-0 xl:right-[50px] xxl:right-auto xxl:left-[50px] opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 xl:translate-y-12 group-hover:translate-y-0'>
-                  <div className='flex gap-1 font-bold pb-3'>
-                    <img
-                      src='assets/img/th-1/icon-black-location-marker.svg'
-                      alt='icon-black-location-marker'
-                      width={17}
-                      height={17}
-                    />
-                    Lake Eyre, Australia
-                  </div>
-                  <address className='not-italic font-semibold'>
-                    Line 1: House/Flat 208, Venue Street
-                  </address>
-                </div>
-              </div>
-            </div>
-            {/* Location 5 */}
           </div>
           {/* Map Block */}
         </div>

@@ -109,10 +109,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
                 <Link to='/team'>Meet our Team</Link>
               </li>
               <li className='sub-menu--item'>
-                <Link to='/faq-1'>FAQ1</Link>
-              </li>
-              <li className='sub-menu--item'>
-                <Link to='/faq-2'>FAQ2</Link>
+                <Link to='/faq-1'>FAQ</Link>
               </li>
             </ul>
           </li>
@@ -142,87 +139,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
               </li>
             </ul>
           </li>
-          <li
-            onClick={(e) => handleSubMenu(e, 3)}
-            className='nav-item nav-item-has-children'
-          >
-            <Link to='#' className='nav-link-item drop-trigger'>
-              Pages
-              <img
-                className='dropdown-icon'
-                src='assets/img/icon-black-cheveron-right.svg'
-                alt='cheveron-right'
-                width={16}
-                height={16}
-              />
-            </Link>
-            <ul
-              className={`sub-menu ${mobileSubMenu === 3 && 'active'}`}
-              id='submenu-3'
-            >
-              <li
-                onClick={(e) => handleSubMenuSub(e, 1)}
-                className='sub-menu--item nav-item-has-children'
-              >
-                <Link to='#' data-menu-get='h3' className='drop-trigger'>
-                  Blogs
-                  <img
-                    className='dropdown-icon'
-                    src='assets/img/icon-black-cheveron-right.svg'
-                    alt='cheveron-right'
-                    width={16}
-                    height={16}
-                  />
-                </Link>
-                <ul
-                  className={`sub-menu shape-none ${
-                    mobileSubMenuSub === 1 && 'active'
-                  }`}
-                  id='submenu-4'
-                >
-                  <li className='sub-menu--item'>
-                    <Link to='/blog'>blogs</Link>
-                  </li>
-                  <li className='sub-menu--item'>
-                    <Link to='/blog-details'>blog details</Link>
-                  </li>
-                </ul>
-              </li>
-              <li
-                onClick={(e) => handleSubMenuSub(e, 4)}
-                className='sub-menu--item nav-item-has-children'
-              >
-                <Link to='#' data-menu-get='h3' className='drop-trigger'>
-                  Portfolio
-                  <img
-                    className='dropdown-icon'
-                    src='assets/img/icon-black-cheveron-right.svg'
-                    alt='cheveron-right'
-                    width={16}
-                    height={16}
-                  />
-                </Link>
-                <ul
-                  className={`sub-menu shape-none ${
-                    mobileSubMenuSub === 4 && 'active'
-                  }`}
-                  id='submenu-7'
-                >
-                  <li className='sub-menu--item'>
-                    <Link to='/portfolio'>Portfolio</Link>
-                  </li>
-                  <li className='sub-menu--item'>
-                    <Link to='/portfolio-details'>Portfolio Details</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className='sub-menu--item'>
-                <Link to='/pricing' data-menu-get='h3' className='drop-trigger'>
-                  Pricing
-                </Link>
-              </li>
-            </ul>
-          </li>
+          
           <li className='nav-item'>
             <Link to='/contact' className='nav-link-item'>
               Contact Us
