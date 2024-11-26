@@ -18,7 +18,7 @@ const Logo = ({ light }) => {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const logoToShow = isMobile ? (light ? logoLight : logoDark) : logoDark;
+  const logoToShow = isMobile ? logoLight : logoDark;
 
   return (
     <Link to='/'>

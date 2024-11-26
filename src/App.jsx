@@ -1,52 +1,52 @@
 import { Route, Routes } from 'react-router-dom';
-import Home_01 from './pages/home/Home_01';
-import About from './pages/common/About';
-import Home_02 from './pages/home/Home_02';
-import Home_03 from './pages/home/Home_03';
-import Home_04 from './pages/home/Home_04';
-import Blog_details from './pages/common/Blog_details';
-import Blog from './pages/common/Blog';
-import Contact from './pages/common/Contact';
-import Error_404 from './pages/common/Error_404';
-import Faq_02 from './pages/common/faq/faq_02/Faq_02';
-import Portfolio_details from './pages/common/Portfolio_details';
-import Portfolio from './pages/common/Portfolio';
-import Pricing from './pages/common/Pricing';
-import Services_Details from './pages/common/Service_Details';
-import Services from './pages/common/Services';
-import Team_details from './pages/common/Team_details';
-import Team from './pages/common/team/Team';
 import useJOSAnimation from './hooks/useJOSAnimation';
 import Layout from './components/layout/Layout';
-import Faq_01 from './pages/common/faq/faq_01/Faq_01';
+import React, { Suspense } from "react";
+import { Icon } from "@iconify/react";
+
+const Home = React.lazy(() => import("./pages/home/Home_01"));
+const About = React.lazy(() => import("./pages/common/About"));
+const Blog = React.lazy(() => import("./pages/common/Blog"));
+const Blog_details = React.lazy(() => import("./pages/common/Blog_details"));
+const Contact = React.lazy(() => import("./pages/common/Contact"));
+const Error_404 = React.lazy(() => import("./pages/common/Error_404"));
+const Services = React.lazy(() => import("./pages/common/Services"));
+const Services_Details = React.lazy(() => import("./pages/common/Service_Details"));
+const Team = React.lazy(() => import("./pages/common/team/Team"));
+const Team_details = React.lazy(() => import("./pages/common/Team_details"));
+
 
 function App() {
   // Init JOS Animation
   useJOSAnimation();
 
+  const Loading = (section) => {
+    return (
+      <Suspense fallback={
+        <div className="h-screen w-full bg-colorOrangyRed text-white flex justify-center items-center">
+          <Icon icon="line-md:loading-loop" className="w-20 h-20" />
+        </div>
+      }>
+        {section}
+      </Suspense>
+    );
+  }
+
   return (
     <Routes>
       <Route path='/' element={<Layout />}>
-        <Route index element={<Home_01 />} />
-        <Route path='about' element={<About />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='blog' element={<Blog />} />
-        <Route path='blog-details' element={<Blog_details />} />
-        <Route path='portfolio' element={<Portfolio />} />
-        <Route path='portfolio-details' element={<Portfolio_details />} />
-        <Route path='faq-1' element={<Faq_01 />} />
-        <Route path='faq-2' element={<Faq_02 />} />
-        <Route path='team' element={<Team />} />
-        <Route path='team-details' element={<Team_details />} />
-        <Route path='pricing' element={<Pricing />} />
-        <Route path='services' element={<Services />} />
-        <Route path='service-details' element={<Services_Details />} />
-        <Route path='error-404' element={<Error_404 />} />
-        <Route path='*' element={<Error_404 />} />
+        <Route index element={Loading(<Home />)} />
+        <Route path='about' element={Loading(<About />)} />
+        <Route path='contact' element={Loading(<Contact />)} />
+        <Route path='blog' element={Loading(<Blog />)} />
+        <Route path='blog-details' element={Loading(<Blog_details />)} />
+        <Route path='team' element={Loading(<Team />)} />
+        <Route path='team-details' element={Loading(<Team_details />)} />
+        <Route path='services' element={Loading(<Services />)} />
+        <Route path='service-details' element={Loading(<Services_Details />)} />
+        <Route path='error-404' element={Loading(<Error_404 />)} />
+        <Route path='*' element={Loading(<Error_404 />)} />
       </Route>
-      <Route path='home-2' element={<Home_02 />} />
-      <Route path='home-3' element={<Home_03 />} />
-      <Route path='home-4' element={<Home_04 />} />
     </Routes>
   );
 }
