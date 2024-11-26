@@ -9,7 +9,7 @@ const Testimonial = () => {
             <div className='global-container'>
               {/* Section Content Block */}
               <div className='jos mb-10 md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[677px]'>
-                <h2 className='font-raleway text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
+                <h2 className='text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
                   Our clients share their experiences
                 </h2>
               </div>
@@ -29,7 +29,7 @@ const Testimonial = () => {
                       height={24}
                     />
                   </div>
-                  <p className='font-raleway text-lg font-bold leading-[1.33] lg:text-xl xl:text-2xl xxl:text-3xl'>
+                  <p className='text-lg font-bold leading-[1.33] lg:text-xl xl:text-2xl xxl:text-3xl'>
                     "I can't believe the difference AI has made for our
                     marketing efforts and Thanks to AI-powered analytics and 30%
                     increase in conversion rates. Highly recommended!"
@@ -55,7 +55,7 @@ const Testimonial = () => {
                       height={24}
                     />
                   </div>
-                  <p className='font-raleway text-lg font-bold leading-[1.33] lg:text-xl xl:text-2xl xxl:text-3xl'>
+                  <p className='text-lg font-bold leading-[1.33] lg:text-xl xl:text-2xl xxl:text-3xl'>
                     "Our supply chain has never run smoother since we
                     implemented AI-driven logistics, and we've eliminated costly
                     delays. AI has truly future-proofed our operations."

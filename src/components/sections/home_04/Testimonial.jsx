@@ -10,7 +10,7 @@ const Testimonial = () => {
           <div className='mb-10 flex flex-wrap items-center justify-between gap-8 md:mb-16 lg:mb-20'>
             {/* Section Content Block */}
             <div className='jos max-w-[480px] lg:max-w-2xl xl:max-w-[840px]'>
-              <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
+              <h2 className='text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
                 What people are saying about AI cybersecurity
               </h2>
             </div>

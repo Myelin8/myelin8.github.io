@@ -1,20 +1,35 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import logoDark from '../../../public/assets/img/icon.jpg';
-import logoLight from '../../../public/assets/img/icon.jpg';
+import logoDark from '../../../public/assets/img/icon.png';
+import logoLight from '../../../public/assets/img/icon-white.png';
 
-// eslint-disable-next-line react/prop-types
-const LogoDark = ({ light }) => {
+const Logo = ({ light }) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      const mobile = window.innerWidth <= 990;
+      setIsMobile(mobile);
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const logoToShow = isMobile ? (light ? logoLight : logoDark) : logoDark;
+
   return (
     <Link to='/'>
       <img
-        src={light ? logoLight : logoDark}
-        alt='AIMass'
-        width='60'
-        height='24'
-        className='rounded-full'
+        src={logoToShow}
+        alt='logo'
+        width='38'
+        className='transform transition duration-300 hover:scale-110'
       />
     </Link>
   );
 };
 
-export default LogoDark;
+export default Logo;

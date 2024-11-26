@@ -7,7 +7,7 @@ const Promo = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[1000px]'>
-            <h2 className='font-raleway text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
+            <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
               Way to be a game changer
             </h2>
           </div>
@@ -25,7 +25,7 @@ const Promo = () => {
                   className='h-full w-auto'
                 />
               </div>
-              <div className='mb-5 font-raleway text-2xl font-bold leading-[1.33] text-black xl:text-3xl'>
+              <div className='mb-5 text-2xl font-bold leading-[1.33] text-black xl:text-3xl'>
                 Enhanced Decision-Making
               </div>
               <p className='text-lg leading-[1.42] xl:text-[21px]'>
@@ -45,7 +45,7 @@ const Promo = () => {
                   className='h-full w-auto'
                 />
               </div>
-              <div className='mb-5 font-raleway text-2xl font-bold leading-[1.33] text-black xl:text-3xl'>
+              <div className='mb-5 text-2xl font-bold leading-[1.33] text-black xl:text-3xl'>
                 Efficiency and Automation
               </div>
               <p className='text-lg leading-[1.42] xl:text-[21px]'>
@@ -65,7 +65,7 @@ const Promo = () => {
                   className='h-full w-auto'
                 />
               </div>
-              <div className='mb-5 font-raleway text-2xl font-bold leading-[1.33] text-black xl:text-3xl'>
+              <div className='mb-5 text-2xl font-bold leading-[1.33] text-black xl:text-3xl'>
                 Customer Experiences
               </div>
               <p className='text-lg leading-[1.42] xl:text-[21px]'>

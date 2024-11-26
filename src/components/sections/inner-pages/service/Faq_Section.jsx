@@ -49,7 +49,7 @@ const Faq_Section = () => {
                 >
                   <div
                     onClick={() => handleAccordion(0)}
-                    className='accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'
+                    className='accordion-header flex items-center justify-between text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'
                   >
                     <p>How do I start AI SaaS?</p>
                     <div className='accordion-icon'>
@@ -73,7 +73,7 @@ const Faq_Section = () => {
                 >
                   <div
                     onClick={() => handleAccordion(1)}
-                    className='accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'
+                    className='accordion-header flex items-center justify-between text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'
                   >
                     <p>Can I customize AI SaaS solutions?</p>
                     <div className='accordion-icon'>
@@ -97,7 +97,7 @@ const Faq_Section = () => {
                 >
                   <div
                     onClick={() => handleAccordion(2)}
-                    className='accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'
+                    className='accordion-header flex items-center justify-between text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'
                   >
                     <p>How can AI benefit my business?</p>
                     <div className='accordion-icon'>

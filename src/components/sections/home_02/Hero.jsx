@@ -11,7 +11,7 @@ const Hero = () => {
             <div className='grid grid-cols-1 items-center gap-10 md:grid-cols-[minmax(0,_1fr)_0.7fr]'>
               {/* Hero Content */}
               <div>
-                <h1 className='jos mb-6 max-w-md break-words font-clashDisplay text-5xl font-medium leading-none text-white md:max-w-full md:text-6xl lg:text-7xl xl:text-8xl xxl:text-[100px]'>
+                <h1 className='jos mb-6 max-w-md break-words text-5xl font-medium leading-none text-white md:max-w-full md:text-6xl lg:text-7xl xl:text-8xl xxl:text-[100px]'>
                   Enhance your communication skills with AI
                 </h1>
                 <p className='jos mb-11'>

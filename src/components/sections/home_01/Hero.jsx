@@ -6,13 +6,15 @@ const Hero = () => {
   return (
     <>
       {/*...::: Hero Section Start :::... */}
-      <section id='section-hero' className="relative h-screen mb-20">
+      <section id='section-hero' className="relative h-screen mb-40">
         <video autoPlay loop muted playsInline className="w-full h-screen object-cover absolute top-0 left-0 z-10">
-          <source src='/public/assets/videos/background.mp4' type='video/mp4' />
+          <source src='/assets/videos/background.mp4' type='video/mp4' />
         </video>
+        <div className="absolute rotate-180 -bottom-[75px] left-1/2 z-10 h-[77px] w-full -translate-x-1/2 bg-[url('/assets/img/th-2/arc-bottom-shape-1.svg')] bg-cover bg-center bg-no-repeat"></div>
+
         <div className="relative z-20 flex items-center justify-center h-full text-center text-white">
           <div
-            className="jos hero-img overflow-hidden max-w-[900px]"
+            className="jos overflow-hidden max-w-[900px]"
             data-jos_animation="zoom"
           >
             <img
@@ -20,7 +22,7 @@ const Hero = () => {
               alt="hero-dashboard"
               width="1296"
               height="640"
-              className="h-auto w-full"
+              className="no-select-media h-auto w-full"
             />
           </div>
           {/* Hero Title 

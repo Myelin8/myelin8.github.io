@@ -1,10 +1,22 @@
 import { Link } from 'react-router-dom';
 import { IoIosMail } from "react-icons/io";
+import { FaCalendarAlt } from "react-icons/fa";
 
 // eslint-disable-next-line react/prop-types
-const Member_Social = ({ mail, linkedin }) => {
+const Member_Social = ({ mail, linkedin, calendly }) => {
   return (
     <ul className='mt-auto flex gap-x-[15px]'>
+      <li>
+        <Link
+          rel='noopener noreferrer'
+          to={calendly}
+          className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
+        >
+          <div className='text-white'>
+            <FaCalendarAlt size={14}/>
+          </div>
+        </Link>
+      </li>
       <li>
         <Link
           rel='noopener noreferrer'

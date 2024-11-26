@@ -48,7 +48,7 @@ const Faq_Section = () => {
                     activeIndex === 0 ? 'active' : ''
                   }`}
                 >
-                  <div className='accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'>
+                  <div className='accordion-header flex items-center justify-between text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'>
                     <p>How do I start AI SaaS?</p>
                     <div className='accordion-icon'>
                       <img src='assets/img/plus.svg' alt='plus' />
@@ -70,7 +70,7 @@ const Faq_Section = () => {
                     activeIndex === 1 ? 'active' : ''
                   }`}
                 >
-                  <div className='accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'>
+                  <div className='accordion-header flex items-center justify-between text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'>
                     <p>Can I customize AI SaaS solutions?</p>
                     <div className='accordion-icon'>
                       <img src='assets/img/plus.svg' alt='plus' />
@@ -92,7 +92,7 @@ const Faq_Section = () => {
                     activeIndex === 2 ? 'active' : ''
                   }`}
                 >
-                  <div className='accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'>
+                  <div className='accordion-header flex items-center justify-between text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]'>
                     <p>How can AI benefit my business?</p>
                     <div className='accordion-icon'>
                       <img src='assets/img/plus.svg' alt='plus' />

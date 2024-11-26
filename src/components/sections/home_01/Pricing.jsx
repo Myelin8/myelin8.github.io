@@ -61,7 +61,7 @@ const Pricing = () => {
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                      <h3 className='text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         Beginner
                       </h3>
                       <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
@@ -69,7 +69,7 @@ const Pricing = () => {
                       </span>
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                      <h4 className='mb-4 text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                         $25
                         <span className='text-lg font-semibold'>
                           /Per month
@@ -93,7 +93,7 @@ const Pricing = () => {
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                      <h3 className='text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         Starter
                       </h3>
                       <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
@@ -101,7 +101,7 @@ const Pricing = () => {
                       </span>
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                      <h4 className='mb-4 text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                         $89
                         <span className='text-lg font-semibold'>
                           /Per month
@@ -125,7 +125,7 @@ const Pricing = () => {
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                      <h3 className='text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         Pro
                       </h3>
                       <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
@@ -133,7 +133,7 @@ const Pricing = () => {
                       </span>
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                      <h4 className='mb-4 text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                         $199
                         <span className='text-lg font-semibold'>
                           /Per month
@@ -166,7 +166,7 @@ const Pricing = () => {
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                      <h3 className='text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         Beginner
                       </h3>
                       <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
@@ -174,7 +174,7 @@ const Pricing = () => {
                       </span>
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                      <h4 className='mb-4 text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                         $240
                         <span className='text-lg font-semibold'>/Per year</span>
                       </h4>
@@ -196,7 +196,7 @@ const Pricing = () => {
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                      <h3 className='text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         Starter
                       </h3>
                       <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
@@ -204,7 +204,7 @@ const Pricing = () => {
                       </span>
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                      <h4 className='mb-4 text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                         $960
                         <span className='text-lg font-semibold'>/Per year</span>
                       </h4>
@@ -226,7 +226,7 @@ const Pricing = () => {
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                      <h3 className='text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         Pro
                       </h3>
                       <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
@@ -234,7 +234,7 @@ const Pricing = () => {
                       </span>
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                      <h4 className='mb-4 text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                         $1800
                         <span className='text-lg font-semibold leading-none'>
                           /Per year

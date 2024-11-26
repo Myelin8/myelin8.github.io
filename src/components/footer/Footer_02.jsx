@@ -18,8 +18,8 @@ const Footer_02 = () => {
             <div className='global-container'>
               {/* Section Content Block */}
               <div className='mx-auto mb-10 text-center md:mb-16 md:max-w-lg lg:mb-20 lg:max-w-xl xl:max-w-3xl'>
-                <h2 className='text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
-                  Let's get started and enjoy the power of AI
+                <h2 className='text-2xl sm:text-4xl font-medium leading-[1.06] text-white'>
+                  Vem descobrir como realmente são os teus consumidores!
                 </h2>
               </div>
               {/* Section Content Block */}
@@ -30,7 +30,7 @@ const Footer_02 = () => {
                     type='email'
                     name='newsletter-email'
                     id='newsletter-email'
-                    placeholder='Enter your email'
+                    placeholder='Escreve o teu email'
                     className='p-y-[18px] h-full w-full rounded-[50px] border-[1px] border-white bg-transparent px-[24px] pr-20 outline-none sm:pr-48'
                     required=''
                   />
@@ -38,7 +38,7 @@ const Footer_02 = () => {
                     type='submit'
                     className='absolute right-[5px] top-[50%] inline-flex h-[50px] -translate-y-[50%] items-center gap-x-[10px] rounded-[50px] bg-colorViolet px-6 transition-all duration-300 hover:bg-colorOrangyRed'
                   >
-                    <span className='hidden sm:inline-block'>Get Started</span>
+                    <span className='hidden sm:inline-block'>Subscrever</span>
                     <img
                       src='assets/img/th-1/arrow-right-large.svg'
                       alt='newsletter'
@@ -54,14 +54,22 @@ const Footer_02 = () => {
           {/* Footer Center */}
           <div className='mt-16 xl:mt-20 xxl:mt-[100px]'>
             {/* Section Container */}
-            <div className='global-container'>
+            <div className='global-container text-center md:text-left'>
               {/* Footer Widgets Block */}
-              <div className='grid gap-x-10 gap-y-[60px] sm:grid-cols-2 md:grid-cols-4 lg:flex lg:justify-between lg:gap-x-20'>
+              <div className='grid gap-x-10 gap-y-[60px] md:flex md:justify-between md:gap-x-20'>
+              <Link to='/' className='md:absolute md:left-1/2 md:-translate-x-1/2'>
+                  <img
+                    src={'assets/img/icon-white.png'}
+                    alt='Logo'
+                    width='160'
+                    className='mx-auto transform transition duration-300 hover:scale-110'
+                  />
+                </Link>
                 {/* Footer Widget */}
                 <div className='flex flex-col gap-y-6'>
                   {/* Footer Title */}
                   <h4 className='text-[21px] font-semibold capitalize text-white'>
-                    Primary Pages
+                    Páginas Principais
                   </h4>
                   {/* Footer Title */}
                   {/* Footer Navbar */}
@@ -76,26 +84,26 @@ const Footer_02 = () => {
                     </li>
                     <li>
                       <Link
+                        to='/solutions'
+                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
+                      >
+                        Soluções
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to='/blog'
+                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
+                      >
+                        Blog
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
                         to='/about'
                         className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
                       >
-                        About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to='/services'
-                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
-                      >
-                        Services
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to='/pricing'
-                        className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
-                      >
-                        Pricing
+                        Sobre nós
                       </Link>
                     </li>
                     <li>
@@ -103,24 +111,17 @@ const Footer_02 = () => {
                         to='/contact'
                         className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
                       >
-                        Contact
+                        Contactos
                       </Link>
                     </li>
                   </ul>
                 </div>
-                <Link to='/'>
-                  <img
-                    src={'assets/img/icon-white.png'}
-                    alt='Logo'
-                    width='200'
-                  />
-                </Link>
                 {/* Footer Widget Item */}
                 {/* Footer Widget Item */}
                 <div className='flex flex-col gap-y-6'>
                   {/* Footer Title */}
                   <h4 className='text-[21px] font-semibold capitalize text-white'>
-                    Socials
+                    Redes Sociais
                   </h4>
                   {/* Footer Title */}
                   {/* Footer Navbar */}
@@ -140,7 +141,7 @@ const Footer_02 = () => {
                             height={14}
                           />
                         </div>
-                        <span className='inline-block flex-1'>Linkedin</span>
+                        <span className='inline-block flex-1'>Myelin8</span>
                       </Link>
                     </li>
                     <li>

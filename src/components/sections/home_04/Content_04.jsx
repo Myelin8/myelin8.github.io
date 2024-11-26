@@ -33,7 +33,7 @@ const Content_04 = () => {
                       height={50}
                       className='h-[50px] w-auto'
                     />
-                    <h5 className='font-spaceGrotesk text-white'>
+                    <h5 className='text-white'>
                       Create a free account
                     </h5>
                   </div>
@@ -80,7 +80,7 @@ const Content_04 = () => {
                       height={50}
                       className='h-[50px] w-auto'
                     />
-                    <h5 className='font-spaceGrotesk text-white'>
+                    <h5 className='text-white'>
                       Define clear objectives
                     </h5>
                   </div>
@@ -127,7 +127,7 @@ const Content_04 = () => {
                       height={50}
                       className='h-[50px] w-auto'
                     />
-                    <h5 className='font-spaceGrotesk text-white'>
+                    <h5 className='text-white'>
                       Continuous improvement
                     </h5>
                   </div>
@@ -160,7 +160,7 @@ const Content_04 = () => {
             <div className='jos' data-jos_animation='fade-right'>
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
+                <h2 className='text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
                   Optimize the highest security standards
                 </h2>
               </div>
@@ -178,7 +178,7 @@ const Content_04 = () => {
                 {/* Counter Items */}
                 <li>
                   <h3
-                    className='font-spaceGrotesk text-5xl leading-[1.05] tracking-[-1px] text-colorGreen md:text-5xl lg:text-6xl xl:text-[70px]'
+                    className='text-5xl leading-[1.05] tracking-[-1px] text-colorGreen md:text-5xl lg:text-6xl xl:text-[70px]'
                     data-module='countup'
                   >
                     <span className='start-number' data-countup-number={95}>
@@ -194,7 +194,7 @@ const Content_04 = () => {
                 {/* Counter Items */}
                 <li>
                   <h3
-                    className='font-spaceGrotesk text-5xl leading-[1.05] tracking-[-1px] text-colorGreen md:text-5xl lg:text-6xl xl:text-[70px]'
+                    className='text-5xl leading-[1.05] tracking-[-1px] text-colorGreen md:text-5xl lg:text-6xl xl:text-[70px]'
                     data-module='countup'
                   >
                     <span className='start-number' data-countup-number={50}>
@@ -210,7 +210,7 @@ const Content_04 = () => {
                 {/* Counter Items */}
                 <li>
                   <h3
-                    className='font-spaceGrotesk text-5xl leading-[1.05] tracking-[-1px] text-colorGreen md:text-5xl lg:text-6xl xl:text-[70px]'
+                    className='text-5xl leading-[1.05] tracking-[-1px] text-colorGreen md:text-5xl lg:text-6xl xl:text-[70px]'
                     data-module='countup'
                   >
                     <span className='start-number' data-countup-number={76}>

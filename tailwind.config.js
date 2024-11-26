@@ -25,17 +25,13 @@ export default {
     extend: {
       fontFamily: {
         // Add your custom fonts
-        dmSans: ["DM Sans", "sans-serif"],
-        clashDisplay: ["Clash Display", "sans-serif"],
-        raleway: ["Raleway", "sans-serif"],
-        spaceGrotesk: ["Space Grotesk", "sans-serif"],
-        body: ["Inter", "sans-serif"],
+        body: ["Poppins", "sans-serif"],
       },
 
       colors: {
         colorCodGray: "#191919",
-        colorOrangyRed: "#540c94",
-        colorLinenRuffle: "#ca96f9",
+        colorOrangyRed: "#8104d4",
+        colorLinenRuffle: "#b874f4",
         colorViolet: "#341166",
         colorGreen: "#ff7900",
       },

@@ -19,7 +19,7 @@ const Promo = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   Threat Detection
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Promo = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   24/7 Monitoring
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Promo = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   Auto Response
                 </div>
               </div>

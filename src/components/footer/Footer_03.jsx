@@ -14,7 +14,7 @@ const Footer_03 = () => {
               <div className='grid-col-1 grid items-center gap-10 md:grid-cols-2'>
                 {/* Section Content Block */}
                 <div>
-                  <h1 className='font-raleway text-white'>Let’s talk</h1>
+                  <h1 className='text-white'>Let’s talk</h1>
                 </div>
                 {/* Section Content Block */}
                 <div className='jos flex flex-col gap-10 md:gap-[50px]'>
@@ -28,13 +28,13 @@ const Footer_03 = () => {
               {/* Footer Content */}
               {/* Footer Contact */}
               <div className='mt-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
-                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
+                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
                   <a href='mailto:example@gmail.com'>example@gmail.com</a>
                 </div>
-                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
+                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
                   <a href='tel:+880-1345-922210'>+880 1345-922210</a>
                 </div>
-                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
+                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
                   <address className='not-italic'>
                     4140 Parker Rd. Mexico
                   </address>

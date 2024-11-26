@@ -11,7 +11,7 @@ const Working = () => {
             <div className='global-container'>
               {/* Section Content Block */}
               <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[1000px]'>
-                <h2 className='font-raleway text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
+                <h2 className='text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
                   Solutions for smart work
                 </h2>
               </div>
@@ -29,7 +29,7 @@ const Working = () => {
                       className='h-full'
                     />
                   </div>
-                  <div className='font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl'>
+                  <div className='text-2xl font-bold leading-[1.33] lg:text-3xl'>
                     Data Analysis
                   </div>
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
@@ -60,7 +60,7 @@ const Working = () => {
                       className='h-full'
                     />
                   </div>
-                  <div className='font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl'>
+                  <div className='text-2xl font-bold leading-[1.33] lg:text-3xl'>
                     Automation
                   </div>
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
@@ -92,7 +92,7 @@ const Working = () => {
                       className='h-full'
                     />
                   </div>
-                  <div className='font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl'>
+                  <div className='text-2xl font-bold leading-[1.33] lg:text-3xl'>
                     Personalization
                   </div>
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
@@ -124,7 +124,7 @@ const Working = () => {
                         className='h-full'
                       />
                     </div>
-                    <div className='font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl'>
+                    <div className='text-2xl font-bold leading-[1.33] lg:text-3xl'>
                       Cost Savings
                     </div>
                     <p className='text-xl leading-[1.33] lg:text-2xl'>
@@ -156,7 +156,7 @@ const Working = () => {
                         className='h-full'
                       />
                     </div>
-                    <div className='font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl'>
+                    <div className='text-2xl font-bold leading-[1.33] lg:text-3xl'>
                       Risk Management
                     </div>
                     <p className='text-xl leading-[1.33] lg:text-2xl'>

@@ -25,31 +25,29 @@ function App() {
   useJOSAnimation();
 
   return (
-    <>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path='/' element={<Home_02 />} />
-          <Route path='about' element={<About />} />
-          <Route path='contact' element={<Contact />} />
-          <Route path='blog' element={<Blog />} />
-          <Route path='blog-details' element={<Blog_details />} />
-          <Route path='portfolio' element={<Portfolio />} />
-          <Route path='portfolio-details' element={<Portfolio_details />} />
-          <Route path='faq-1' element={<Faq_01 />} />
-          <Route path='faq-2' element={<Faq_02 />} />
-          <Route path='team' element={<Team />} />
-          <Route path='team-details' element={<Team_details />} />
-          <Route path='pricing' element={<Pricing />} />
-          <Route path='services' element={<Services />} />
-          <Route path='service-details' element={<Services_Details />} />
-          <Route path='error-404' element={<Error_404 />} />
-          <Route path='*' element={<Error_404 />} />
-        </Route>
-        <Route path='home-2' element={<Home_02 />} />
-        <Route path='home-3' element={<Home_03 />} />
-        <Route path='home-4' element={<Home_04 />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<Home_01 />} />
+        <Route path='about' element={<About />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='blog' element={<Blog />} />
+        <Route path='blog-details' element={<Blog_details />} />
+        <Route path='portfolio' element={<Portfolio />} />
+        <Route path='portfolio-details' element={<Portfolio_details />} />
+        <Route path='faq-1' element={<Faq_01 />} />
+        <Route path='faq-2' element={<Faq_02 />} />
+        <Route path='team' element={<Team />} />
+        <Route path='team-details' element={<Team_details />} />
+        <Route path='pricing' element={<Pricing />} />
+        <Route path='services' element={<Services />} />
+        <Route path='service-details' element={<Services_Details />} />
+        <Route path='error-404' element={<Error_404 />} />
+        <Route path='*' element={<Error_404 />} />
+      </Route>
+      <Route path='home-2' element={<Home_02 />} />
+      <Route path='home-3' element={<Home_03 />} />
+      <Route path='home-4' element={<Home_04 />} />
+    </Routes>
   );
 }
 

@@ -22,7 +22,7 @@ const Content_01 = () => {
             <div className='jos' data-jos_animation='fade-right'>
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
+                <h2 className='text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
                   Securing networks, servers and data
                 </h2>
               </div>

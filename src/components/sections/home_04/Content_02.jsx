@@ -20,7 +20,7 @@ const Content_02 = () => {
             <div className='jos order-1' data-jos_animation='fade-right'>
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
+                <h2 className='text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
                   Industries protect their digital assets
                 </h2>
               </div>
@@ -31,7 +31,7 @@ const Content_02 = () => {
                   of organizations across various industries use to protect
                   their digital assets, networks, and sensitive data.
                 </p>
-                <ul className='flex flex-col gap-y-5 font-spaceGrotesk text-xl leading-tight tracking-tighter lg:mt-12 lg:text-[28px]'>
+                <ul className='flex flex-col gap-y-5 text-xl leading-tight tracking-tighter lg:mt-12 lg:text-[28px]'>
                   <li className='flex items-start gap-x-3'>
                     <div className='mt-[2.5px] h-[30px] w-[30px]'>
                       <img

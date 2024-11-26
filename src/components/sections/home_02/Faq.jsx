@@ -10,7 +10,7 @@ const Faq = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]'>
-            <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
+            <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
               AI Chatbot FAQs for more information
             </h2>
           </div>
@@ -26,7 +26,7 @@ const Faq = () => {
               data-jos_delay='0.1'
             >
               <div className='accordion-header flex items-center justify-between'>
-                <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                <h5 className='text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                   What is Artificial Intelligence (AI)?
                 </h5>
                 <div className='accordion-icon is-blue'>
@@ -53,7 +53,7 @@ const Faq = () => {
               data-jos_delay='0.1'
             >
               <div className='accordion-header flex items-center justify-between'>
-                <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                <h5 className='text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                   What are the benefits of using AI chatbots?
                 </h5>
                 <div className='accordion-icon is-blue'>
@@ -80,7 +80,7 @@ const Faq = () => {
               data-jos_delay='0.1'
             >
               <div className='accordion-header flex items-center justify-between'>
-                <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                <h5 className='text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                   Can AI chatbots understand multiple languages?
                 </h5>
                 <div className='accordion-icon is-blue'>
@@ -107,7 +107,7 @@ const Faq = () => {
               data-jos_delay='0.1'
             >
               <div className='accordion-header flex items-center justify-between'>
-                <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                <h5 className='text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                   Can AI chatbots provide personalized responses?
                 </h5>
                 <div className='accordion-icon is-blue'>
@@ -134,7 +134,7 @@ const Faq = () => {
               data-jos_delay='0.1'
             >
               <div className='accordion-header flex items-center justify-between'>
-                <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                <h5 className='text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                   How can I integrate an AI chatbot into my business or website?
                 </h5>
                 <div className='accordion-icon is-blue'>

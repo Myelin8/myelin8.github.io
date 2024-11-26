@@ -18,8 +18,8 @@ const Team = () => {
             <div className='global-container'>
               {/* Section Content Block */}
               <div className='jos mb-10 text-center lg:mb-16 xl:mb-20'>
-                <div className='mx-auto md:max-w-xs lg:max-w-xl xl:max-w-[746px]'>
-                  <h2>Our team consists of a group of talents</h2>
+                <div className='mx-auto'>
+                  <h2>Conhece os Founders</h2>
                 </div>
               </div>
               {/* Section Content Block */}
@@ -33,18 +33,14 @@ const Team = () => {
 
                 {/* Inviting */}
                 <li
-                  className='jos min-h-[400px] rounded-[20px] bg-colorLinenRuffle p-[20px]'
+                  className='jos min-h-[400px] rounded-[20px] bg-colorOrangyRed p-[20px] text-white'
                   data-jos_animation='flip'
                   data-jos_delay='0.9'
                 >
                   <div className='flex h-full flex-col items-center justify-center text-center'>
-                    <div className='text-3xl font-semibold leading-[1.2] tracking-[-1px] text-black xl:text-[40px]'>
-                      Want to join our amazing team?
+                    <div className='text-3xl font-semibold leading-[1.2] tracking-[-1px] xl:text-[40px] mb-6'>
+                      Queres fazer parte da equipa?
                     </div>
-                    <p className='mb-6 mt-4 text-lg leading-[1.4] xl:mb-[30px] xl:text-[21px]'>
-                      Specify the job you are applying for and introduce
-                      yourself
-                    </p>
                     <Link
                       to='/team'
                       className='button block w-full rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'

@@ -12,7 +12,7 @@ const Testimonial = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]'>
-            <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
+            <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
               Check user reviews using our AI chatbot
             </h2>
           </div>
@@ -40,7 +40,7 @@ const Testimonial = () => {
                   />
                 </div>
                 <div className='mt-[30px] flex-1 text-center md:text-left'>
-                  <div className='mb-5 font-clashDisplay text-2xl font-medium leading-[1.28] tracking-[1px] lg:mb-9 lg:text-[28px]'>
+                  <div className='mb-5 text-2xl font-medium leading-[1.28] tracking-[1px] lg:mb-9 lg:text-[28px]'>
                     “Easy to use AI Chatbot with many options”
                   </div>
                   <p className='mb-9 leading-[1.33] lg:mb-[50px] lg:text-lg xl:text-2xl'>
@@ -72,7 +72,7 @@ const Testimonial = () => {
                   />
                 </div>
                 <div className='mt-[30px] flex-1 text-center md:text-left'>
-                  <div className='mb-5 font-clashDisplay text-2xl font-medium leading-[1.28] tracking-[1px] lg:mb-9 lg:text-[28px]'>
+                  <div className='mb-5 text-2xl font-medium leading-[1.28] tracking-[1px] lg:mb-9 lg:text-[28px]'>
                     “Easy to use AI Chatbot with many options”
                   </div>
                   <p className='mb-9 leading-[1.33] lg:mb-[50px] lg:text-lg xl:text-2xl'>

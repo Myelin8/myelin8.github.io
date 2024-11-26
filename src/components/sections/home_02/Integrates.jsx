@@ -12,7 +12,7 @@ const Integrates = () => {
               <div className='jos'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
+                  <h2 className='text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
                     Integrates your favorite channels
                   </h2>
                 </div>
@@ -23,7 +23,7 @@ const Integrates = () => {
                   consistent and convenient experience across various
                   touchpoints.
                 </p>
-                <ul className='my-12 flex flex-col gap-y-6 font-clashDisplay text-[22px] font-medium leading-[1.28] tracking-[1px] lg:text-[28px]'>
+                <ul className='my-12 flex flex-col gap-y-6 text-[22px] font-medium leading-[1.28] tracking-[1px] lg:text-[28px]'>
                   <li className='relative pl-[35px] after:absolute after:left-[10px] after:top-3 after:h-[15px] after:w-[15px] after:rounded-[50%] after:bg-colorViolet'>
                     It preferred all communication channels
                   </li>

@@ -55,14 +55,14 @@ const Pricing_Section = () => {
                     data-jos_animation='flip'
                     data-jos_delay={0}
                   >
-                    <h3 className='flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                    <h3 className='flex flex-wrap text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Free
                     </h3>
                     <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       1 member
                     </span>
                     <div className='my-5 h-[1px] w-full bg-[#DBD6CF]' />
-                    <h4 className='mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                    <h4 className='mb-4 flex flex-col text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                       $0
                       <span className='text-lg font-semibold'>/Per month</span>
                     </h4>
@@ -145,14 +145,14 @@ const Pricing_Section = () => {
                     data-jos_animation='flip'
                     data-jos_delay={0}
                   >
-                    <h3 className='flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                    <h3 className='flex flex-wrap text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Beginner
                     </h3>
                     <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Up to 10 members
                     </span>
                     <div className='my-5 h-[1px] w-full bg-[#DBD6CF]' />
-                    <h4 className='mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                    <h4 className='mb-4 flex flex-col text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                       $25
                       <span className='text-lg font-semibold'>/Per month</span>
                     </h4>
@@ -254,14 +254,14 @@ const Pricing_Section = () => {
                     data-jos_animation='flip'
                     data-jos_delay={0}
                   >
-                    <h3 className='flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                    <h3 className='flex flex-wrap text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Starter
                     </h3>
                     <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Up to 50 members
                     </span>
                     <div className='my-5 h-[1px] w-full bg-[#DBD6CF]' />
-                    <h4 className='mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                    <h4 className='mb-4 flex flex-col text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                       $89
                       <span className='text-lg font-semibold'>/Per month</span>
                     </h4>
@@ -382,14 +382,14 @@ const Pricing_Section = () => {
                     data-jos_animation='flip'
                     data-jos_delay={0}
                   >
-                    <h3 className='flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                    <h3 className='flex flex-wrap text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Pro
                     </h3>
                     <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Up to 100 members
                     </span>
                     <div className='my-5 h-[1px] w-full bg-[#DBD6CF]' />
-                    <h4 className='mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                    <h4 className='mb-4 flex flex-col text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                       $199
                       <span className='text-lg font-semibold'>/Per month</span>
                     </h4>
@@ -539,14 +539,14 @@ const Pricing_Section = () => {
                     data-jos_animation='flip'
                     data-jos_delay={0}
                   >
-                    <h3 className='flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                    <h3 className='flex flex-wrap text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Free
                     </h3>
                     <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       1 member
                     </span>
                     <div className='my-5 h-[1px] w-full bg-[#DBD6CF]' />
-                    <h4 className='mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                    <h4 className='mb-4 flex flex-col text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                       $0
                       <span className='text-lg font-semibold'>/Annual</span>
                     </h4>
@@ -629,14 +629,14 @@ const Pricing_Section = () => {
                     data-jos_animation='flip'
                     data-jos_delay={0}
                   >
-                    <h3 className='flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                    <h3 className='flex flex-wrap text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Beginner
                     </h3>
                     <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Up to 10 members
                     </span>
                     <div className='my-5 h-[1px] w-full bg-[#DBD6CF]' />
-                    <h4 className='mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                    <h4 className='mb-4 flex flex-col text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                       $240
                       <span className='text-lg font-semibold'>/Annual</span>
                     </h4>
@@ -738,14 +738,14 @@ const Pricing_Section = () => {
                     data-jos_animation='flip'
                     data-jos_delay={0}
                   >
-                    <h3 className='flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                    <h3 className='flex flex-wrap text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Starter
                     </h3>
                     <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Up to 50 members
                     </span>
                     <div className='my-5 h-[1px] w-full bg-[#DBD6CF]' />
-                    <h4 className='mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                    <h4 className='mb-4 flex flex-col text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                       $960
                       <span className='text-lg font-semibold'>/Annual</span>
                     </h4>
@@ -866,14 +866,14 @@ const Pricing_Section = () => {
                     data-jos_animation='flip'
                     data-jos_delay={0}
                   >
-                    <h3 className='flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
+                    <h3 className='flex flex-wrap text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Pro
                     </h3>
                     <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                       Up to 100 members
                     </span>
                     <div className='my-5 h-[1px] w-full bg-[#DBD6CF]' />
-                    <h4 className='mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
+                    <h4 className='mb-4 flex flex-col text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
                       $1800
                       <span className='text-lg font-semibold'>/Annual</span>
                     </h4>

@@ -9,7 +9,7 @@ const Service = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]'>
-            <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
+            <h2 className='text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
               Get all the tools to tackle cybersecurity together
             </h2>
           </div>
@@ -31,7 +31,7 @@ const Service = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   Threat Detection
                 </div>
               </div>
@@ -75,7 +75,7 @@ const Service = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   Phishing Detection
                 </div>
               </div>
@@ -119,7 +119,7 @@ const Service = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   Network Security
                 </div>
               </div>
@@ -163,7 +163,7 @@ const Service = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   Encryption Tools
                 </div>
               </div>
@@ -206,7 +206,7 @@ const Service = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   Password Managers
                 </div>
               </div>
@@ -250,7 +250,7 @@ const Service = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
+                <div className='flex-1 text-3xl leading-[1.33]'>
                   Secure Email
                 </div>
               </div>

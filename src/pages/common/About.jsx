@@ -3,7 +3,6 @@ import Hero from '../../components/sections/inner-pages/about/Hero';
 import FunFact from '../../components/sections/inner-pages/about/FunFact';
 import Content_02 from '../../components/sections/inner-pages/about/Content_02';
 import CoreValue from '../../components/sections/inner-pages/about/CoreValue';
-import Team from '../../components/sections/inner-pages/about/team/Team';
 import Contact from '../../components/contact/Contact';
 
 const About = () => {
@@ -25,9 +24,6 @@ const About = () => {
         {/*...::: Core Value Section Start :::... */}
         <CoreValue />
         {/*...::: Core Value Section End :::... */}
-        {/*...::: Team Section Start :::... */}
-        <Team />
-        {/*...::: Team Section End :::... */}
         {/*...::: About Contact Section Start :::... */}
         <Contact />
         {/*...::: About Contact Section End :::... */}

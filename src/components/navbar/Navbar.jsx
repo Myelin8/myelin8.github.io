@@ -76,17 +76,13 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
         </div>
         <ul className={`site-menu-main ${color}`}>
           {/* Global navbar */}
-          <li className='nav-item'>
-            <Link to='/solutions' className='nav-link-item'>
-              Solutions
-            </Link>
-          </li>
+          {/*
           <li
             onClick={(e) => handleSubMenu(e, 1)}
             className='nav-item nav-item-has-children'
           >
             <Link to='#' className='nav-link-item drop-trigger'>
-              About Us
+              Soluções
               <img
                 className='dropdown-icon'
                 src='assets/img/icon-black-cheveron-right.svg'
@@ -99,26 +95,30 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
               className={`sub-menu ${mobileSubMenu === 1 && 'active'}`}
               id='submenu-1'
             >
+
               <li className='sub-menu--item'>
-                <Link to='/about'>About Myelin8</Link>
+                <Link to='/consumer'>Perfis de Consumidor</Link>
               </li>
               <li className='sub-menu--item'>
-                <Link to='/why'>Why Myelin8</Link>
+                <Link to='/consultancy'>Consultoria Especializada</Link>
               </li>
               <li className='sub-menu--item'>
-                <Link to='/team'>Meet our Team</Link>
-              </li>
-              <li className='sub-menu--item'>
-                <Link to='/faq-1'>FAQ</Link>
+                <Link to='/insights'>Insights</Link>
               </li>
             </ul>
+          </li>
+          */}
+          <li className='nav-item'>
+            <Link to='/solutions' className='nav-link-item'>
+              Soluções
+            </Link>
           </li>
           <li
             onClick={(e) => handleSubMenu(e, 2)}
             className='nav-item nav-item-has-children'
           >
             <Link to='#' className='nav-link-item drop-trigger'>
-              Resources
+              Media
               <img
                 className='dropdown-icon'
                 src='assets/img/icon-black-cheveron-right.svg'
@@ -132,18 +132,46 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
               id='submenu-2'
             >
               <li className='sub-menu--item'>
-                <Link to='/services'>Services</Link>
+                <Link to='/social-media'>Redes Sociais</Link>
               </li>
               <li className='sub-menu--item'>
-                <Link to='/service-details'>Service Details</Link>
+                <Link to='/blog'>Blog</Link>
               </li>
             </ul>
           </li>
-          
-          <li className='nav-item'>
-            <Link to='/contact' className='nav-link-item'>
-              Contact Us
+          <li
+            onClick={(e) => handleSubMenu(e, 1)}
+            className='nav-item nav-item-has-children'
+          >
+            <Link to='#' className='nav-link-item drop-trigger'>
+              Sobre Nós
+              <img
+                className='dropdown-icon'
+                src='assets/img/icon-black-cheveron-right.svg'
+                alt='cheveron-right'
+                width={16}
+                height={16}
+              />
             </Link>
+            <ul
+              className={`sub-menu ${mobileSubMenu === 1 && 'active'}`}
+              id='submenu-1'
+            >
+              <li className='sub-menu--item'>
+                <Link to='/about'>Myelin8</Link>
+              </li>
+              <li className='sub-menu--item'>
+                <Link to='/team'>Equipa</Link>
+              </li>
+              {/*
+              <li className='sub-menu--item'>
+                <Link to='/faq-1'>FAQ</Link>
+              </li>
+              <li className='sub-menu--item'>
+                <Link to='/partners'>Parcerias</Link>
+              </li>
+              */}
+            </ul>
           </li>
         </ul>
       </nav>

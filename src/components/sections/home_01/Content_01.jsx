@@ -1,4 +1,14 @@
+import { useEffect, useRef } from "react";
+
 const Content_01 = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.5;
+    }
+  }, []);
+
   return (
     <>
       {/*...::: Content Section Start_1 :::... */}
@@ -13,13 +23,9 @@ const Content_01 = () => {
                 className='jos order-2 overflow-hidden rounded-md md:order-1'
                 data-jos_animation='fade-left'
               >
-                <img
-                  src='assets/img/th-1/content-image-1.jpg'
-                  alt='content-image-1'
-                  width='526'
-                  height='450'
-                  className='h-auto w-full'
-                />
+                <video autoPlay loop muted playsInline className="w-full no-select-media" ref={videoRef}>
+                  <source src='/assets/videos/blocks.mp4' type='video/mp4'/>
+                </video>
               </div>
               {/* Content Left Block */}
               {/* Content Right Block */}
@@ -29,19 +35,15 @@ const Content_01 = () => {
               >
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h2>Accessible to a wider audience</h2>
+                  <h2>O nosso Propósito:</h2>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[21px]'>
                   <p className='mb-7 last:mb-0'>
-                    Advanced AI capabilities accessible to a broader audience,
-                    including small & medium-sized businesses and individuals
-                    who may not have the resources or expertise to develop.
+                    Na Myelin8, acreditamos que a verdadeira transformação no turismo começa com a personalização profunda da experiência do cliente, impulsionada por dados.
                   </p>
                   <p className='mb-7 last:mb-0'>
-                    Advanced AI capabilities accessible to a broader audience,
-                    including small & medium-sized businesses and individuals
-                    who may not have the resources or expertise to develop.
+                    O nosso propósito é capacitar empresas, marcas e destinos a tomar decisões mais inteligentes, com base em dados precisos e atualizados, permitindo-lhes antecipar as necessidades dos turistas e oferecer ofertas mais relevantes.
                   </p>
                 </div>
               </div>

@@ -14,11 +14,9 @@ const Content_02 = () => {
                 data-jos_animation='fade-left'
               >
                 <img
-                  src='assets/img/th-1/content-image-2.jpg'
+                  src='assets/img/th-1/Fluffy_Loop.svg'
                   alt='content-image-2'
-                  width='526'
-                  height='450'
-                  className='h-auto w-full'
+                  width='400'
                 />
               </div>
               {/* Content Left Block */}
@@ -26,54 +24,17 @@ const Content_02 = () => {
               <div className='jos order-1' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h2>Providing quick deploy solutions</h2>
+                  <h2>O que nos distingue de outras soluções?</h2>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[21px]'>
                   <p className='mb-7 last:mb-0'>
-                    Our AI SaaS solutions can be quickly deployed, enabling
-                    users to start benefiting from AI capabilities without
-                    lengthy setup and development times in fast-paced
-                    industries.
+                    A Myelin8 alia tecnologia de ponta a uma compreensão profunda do setor turístico. Combinamos Competitive Intelligence e Decision Science para transformar dados em insights poderosos que impulsionam resultados.
                   </p>
-                  <ul className='flex flex-col gap-y-5 font-dmSans text-xl leading-tight tracking-tighter text-black lg:mt-12 lg:text-[28px]'>
-                    <li className='flex items-start gap-x-3'>
-                      <div className='mt-[2.5px] h-[30px] w-[30px]'>
-                        <img
-                          src='assets/img/th-1/check-circle.svg'
-                          alt='check-circle'
-                          width='30'
-                          height='30'
-                          className='h-full w-full'
-                        />
-                      </div>
-                      Ready-to-use AI capabilities system
-                    </li>
-                    <li className='flex items-start gap-x-3'>
-                      <div className='mt-[2.5px] h-[30px] w-[30px]'>
-                        <img
-                          src='assets/img/th-1/check-circle.svg'
-                          alt='check-circle'
-                          width='30'
-                          height='30'
-                          className='h-full w-full'
-                        />
-                      </div>
-                      Users can quickly integrate AI features
-                    </li>
-                    <li className='flex items-start gap-x-3'>
-                      <div className='mt-[2.5px] h-[30px] w-[30px]'>
-                        <img
-                          src='assets/img/th-1/check-circle.svg'
-                          alt='check-circle'
-                          width='30'
-                          height='30'
-                          className='h-full w-full'
-                        />
-                      </div>
-                      Time savings translate to cost savings
-                    </li>
-                  </ul>
+                  <p className='mb-7 last:mb-0'>
+                    Na Myelin8, não entregamos apenas números - traduzimos dados em decisões inteligentes, ajudando as empresas a reagir rapidamente às mudanças do mercado e a criar estratégias que realmente fazem a diferença. Porque no turismo, cada decisão conta, e nós estamos aqui para garantir que cada uma delas leve ao sucesso.
+                  </p>
+                  
                 </div>
               </div>
               {/* Content Right Block */}

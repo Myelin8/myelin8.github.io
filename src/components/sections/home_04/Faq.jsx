@@ -10,7 +10,7 @@ const Faq = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]'>
-            <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
+            <h2 className='text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
               Our experts are able to answer all your questions
             </h2>
           </div>
@@ -28,7 +28,7 @@ const Faq = () => {
                 onClick={() => handleAccordionTwo(0)}
                 className='accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl'
               >
-                <h5 className='font-spaceGrotesk text-white'>
+                <h5 className='text-white'>
                   What is AI cybersecurity, and how does it differ from
                   traditional cybersecurity?
                 </h5>
@@ -57,7 +57,7 @@ const Faq = () => {
                 onClick={() => handleAccordionTwo(1)}
                 className='accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl'
               >
-                <h5 className='font-spaceGrotesk text-white'>
+                <h5 className='text-white'>
                   What types of threats can AI cybersecurity protect against?
                 </h5>
                 <div className='accordion-icon is-outline-green'>
@@ -85,7 +85,7 @@ const Faq = () => {
                 onClick={() => handleAccordionTwo(2)}
                 className='accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl'
               >
-                <h5 className='font-spaceGrotesk text-white'>
+                <h5 className='text-white'>
                   How does AI help in threat detection and prevention?
                 </h5>
                 <div className='accordion-icon is-outline-green'>
@@ -113,7 +113,7 @@ const Faq = () => {
                 onClick={() => handleAccordionTwo(3)}
                 className='accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl'
               >
-                <h5 className='font-spaceGrotesk text-white'>
+                <h5 className='text-white'>
                   Is AI cybersecurity effective against zero-day attacks?
                 </h5>
                 <div className='accordion-icon is-outline-green'>
@@ -141,7 +141,7 @@ const Faq = () => {
                 onClick={() => handleAccordionTwo(4)}
                 className='accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl'
               >
-                <h5 className='font-spaceGrotesk text-white'>
+                <h5 className='text-white'>
                   What is the role of human cybersecurity professionals in AI
                   cybersecurity?
                 </h5>

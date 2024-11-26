@@ -26,8 +26,8 @@ const Header = ({ dashboardCSS, navColor, light }) => {
           {/* Header Navigation */}
           {/* Header User Event */}
           <div className='flex items-center gap-6'>
-            <Link to='https://dashboard.myelin8.com' className={dashboardCSS}>
-              Go to Dashboard
+            <Link to='/contact' className={dashboardCSS}>
+              Contacta-nos
             </Link>
             {/* Responsive Off-canvas Menu Button */}
             <div className='block lg:hidden'>

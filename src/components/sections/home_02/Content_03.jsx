@@ -31,7 +31,7 @@ const Content_03 = () => {
             >
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
+                <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
                   Always provide the best answer
                 </h2>
               </div>

@@ -1,4 +1,3 @@
-import Header from '../../components/header/Header';
 import Blog from '../../components/sections/home_02/Blog';
 import Hero from '../../components/sections/home_01/Hero';
 import Feature from '../../components/sections/home_02/Feature';

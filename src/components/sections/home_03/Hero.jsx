@@ -11,7 +11,7 @@ const Hero = () => {
           <div className='grid items-center gap-10 md:grid-cols-2 xl:grid-cols-[minmax(0,_1.3fr)_1fr]'>
             {/* Section Content Block */}
             <div>
-              <h2 className='font-raleway text-5xl md:text-6xl lg:text-7xl xl:text-[100px] xxl:text-[120px]'>
+              <h2 className='text-5xl md:text-6xl lg:text-7xl xl:text-[100px] xxl:text-[120px]'>
                 AI the future of business
               </h2>
             </div>

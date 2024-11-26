@@ -10,7 +10,7 @@ const Blog = () => {
           <div className='global-container'>
             {/* Section Content Block */}
             <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[1000px]'>
-              <h2 className='font-raleway text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
+              <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
                 Discover our latest articles
               </h2>
             </div>
@@ -37,7 +37,7 @@ const Blog = () => {
                   </div>
                   <Link
                     to='/blog-details'
-                    className='font-raleway text-2xl font-bold leading-[1.33] text-black transition-all duration-300 group-hover:text-[#381FD1] lg:text-3xl'
+                    className='text-2xl font-bold leading-[1.33] text-black transition-all duration-300 group-hover:text-[#381FD1] lg:text-3xl'
                   >
                     10 AI business ideas for startups in 2024
                   </Link>
@@ -68,7 +68,7 @@ const Blog = () => {
                   </div>
                   <Link
                     to='/blog-details'
-                    className='font-raleway text-2xl font-bold leading-[1.33] text-black transition-all duration-300 group-hover:text-[#381FD1] lg:text-3xl'
+                    className='text-2xl font-bold leading-[1.33] text-black transition-all duration-300 group-hover:text-[#381FD1] lg:text-3xl'
                   >
                     Steps to shape your future work with AI
                   </Link>
@@ -100,7 +100,7 @@ const Blog = () => {
                   </div>
                   <Link
                     to='/blog-details'
-                    className='font-raleway text-2xl font-bold leading-[1.33] text-black transition-all duration-300 group-hover:text-[#381FD1] lg:text-3xl'
+                    className='text-2xl font-bold leading-[1.33] text-black transition-all duration-300 group-hover:text-[#381FD1] lg:text-3xl'
                   >
                     AI tools to improve product descriptions
                   </Link>
@@ -130,7 +130,7 @@ const Blog = () => {
                   </div>
                   <Link
                     to='/blog-details'
-                    className='font-raleway text-2xl font-bold leading-[1.33] text-black transition-all duration-300 group-hover:text-[#381FD1] lg:text-3xl'
+                    className='text-2xl font-bold leading-[1.33] text-black transition-all duration-300 group-hover:text-[#381FD1] lg:text-3xl'
                   >
                     3 best AI businesses to make money
                   </Link>

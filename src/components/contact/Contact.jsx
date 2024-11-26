@@ -41,7 +41,7 @@ const Contact = () => {
                   goals.
                 </p>
               </div>
-              <ul className='mt-10 flex flex-col gap-6 font-dmSans text-[30px] tracking-[1.33] lg:mt-14 lg:gap-y-3 xl:mt-[70px]'>
+              <ul className='mt-10 flex flex-col gap-6 text-[30px] tracking-[1.33] lg:mt-14 lg:gap-y-3 xl:mt-[70px]'>
                 <li className='flex flex-col gap-x-2 leading-tight text-colorOrangyRed lg:flex-row lg:leading-normal'>
                   Website:
                   <Link

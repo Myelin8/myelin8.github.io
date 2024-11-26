@@ -12,7 +12,7 @@ const Content_03 = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='jos mb-10 max-w-[480px] md:mb-16 lg:mb-20 lg:max-w-2xl xl:max-w-[800px]'>
-            <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
+            <h2 className='text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
               Defenses to stay ahead of all evolving all threats
             </h2>
           </div>

@@ -9,7 +9,7 @@ const Blog = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mx-0 lg:mb-20 lg:max-w-[636px] lg:text-left'>
-            <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
+            <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
               Find out more in our recent blogs
             </h2>
           </div>
@@ -37,7 +37,7 @@ const Blog = () => {
               {/* Blog Image */}
               {/* Blog Content */}
               <div className='p-6'>
-                <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
+                <h5 className='mb-7 font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
                   <Link to='/blog-details'>
                     AI Chatbot: It essential for customer self-service
                   </Link>
@@ -79,7 +79,7 @@ const Blog = () => {
               {/* Blog Image */}
               {/* Blog Content */}
               <div className='p-6'>
-                <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
+                <h5 className='mb-7 font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
                   <Link to='/blog-details'>
                     How to build your own AI chatbot with custom data
                   </Link>
@@ -121,7 +121,7 @@ const Blog = () => {
               {/* Blog Image */}
               {/* Blog Content */}
               <div className='p-6'>
-                <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
+                <h5 className='mb-7 font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
                   <Link to='/blog-details'>
                     8 best AI chatbot tools for boost your business
                   </Link>

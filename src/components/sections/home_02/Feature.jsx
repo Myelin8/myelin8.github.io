@@ -7,8 +7,8 @@ const Feature = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='jos mb-10 text-left sm:mx-auto sm:text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]'>
-            <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
-              Remarkable features in effective conversation
+            <h2 className='text-4xl font-medium leading-[1.06]'>
+              Myelin8 provides centralized, easy-to-understand tourism data for innovative decision-making.
             </h2>
           </div>
           {/* Section Content Block */}
@@ -28,7 +28,7 @@ const Feature = () => {
                 />
               </div>
               <div className='flex flex-1 flex-col gap-y-5'>
-                <div className='font-clashDisplay text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5'>
+                <div className='text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5'>
                   Multilingual Support
                 </div>
                 <p>
@@ -52,7 +52,7 @@ const Feature = () => {
                 />
               </div>
               <div className='flex flex-1 flex-col gap-y-5'>
-                <div className='font-clashDisplay text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5'>
+                <div className='text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5'>
                   Intent Recognition
                 </div>
                 <p>
@@ -76,7 +76,7 @@ const Feature = () => {
                 />
               </div>
               <div className='flex flex-1 flex-col gap-y-5'>
-                <div className='font-clashDisplay text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5'>
+                <div className='text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5'>
                   Context Management
                 </div>
                 <p>

@@ -8,10 +8,11 @@ const Member = ({
   info,
   mail,
   linkedin,
+  calendly,
 }) => {
   return (
     <li
-      className='jos rounded-[20px] bg-colorLinenRuffle p-[20px]'
+      className='jos group rounded-[20px] bg-colorOrangyRed text-white p-[20px]'
       data-jos_animation='flip'
       data-jos_delay='0.1'
     >
@@ -21,22 +22,18 @@ const Member = ({
           alt='team-member'
           width={376}
           height={400}
-          className='h-full w-full object-cover'
+          className='h-full w-full object-cover bg-white scale-100 transition-all duration-300 group-hover:scale-105'
         />
       </div>
       <div className='mt-5'>
-        <Link
-          to='/team-details'
-          className='font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]'
-        >
-          {name}
-        </Link>
+        <h3 className='text-[26px] leading-[1.33] xxl:text-[30px]'>{name}</h3>
         <div className='mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center'>
           <span className='text-[21px]'>{info}</span>
           {
             <Team_Social
               mail={mail}
               linkedin={linkedin}
+              calendly={calendly}
             />
           }
         </div>

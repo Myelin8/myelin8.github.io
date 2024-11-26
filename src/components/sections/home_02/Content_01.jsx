@@ -29,7 +29,7 @@ const Content_01 = () => {
             >
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
+                <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
                   Expression of like human attitude
                 </h2>
               </div>
@@ -41,7 +41,7 @@ const Content_01 = () => {
                   style to our chatbot can improve the quality of your
                   interactions.
                 </p>
-                <ul className='mt-12 flex flex-col gap-y-6 font-clashDisplay text-[22px] font-medium leading-[1.28] tracking-[1px] lg:text-[28px]'>
+                <ul className='mt-12 flex flex-col gap-y-6 text-[22px] font-medium leading-[1.28] tracking-[1px] lg:text-[28px]'>
                   <li className='relative pl-[35px] after:absolute after:left-[10px] after:top-3 after:h-[15px] after:w-[15px] after:rounded-[50%] after:bg-colorViolet'>
                     Use natural language as you were talking
                   </li>

@@ -21,7 +21,7 @@ const Content_01 = () => {
               <div className='jos' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h2 className='font-raleway text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
+                  <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
                     Revolutionary AI superchargers all business tasks
                   </h2>
                 </div>

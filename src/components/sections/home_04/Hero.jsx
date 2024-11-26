@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="bg-[url('/assets/img/th-4/hero-bg.jpg')] bg-cover bg-no-repeat pb-20 pt-28 md:pb-[265px] md:pt-40 lg:pt-44 xl:pt-[224px]">
           {/* Section Container */}
           <div className='global-container'>
-            <h1 className='jos mb-6 font-spaceGrotesk leading-none -tracking-[3px] text-white'>
+            <h1 className='jos mb-6 leading-none -tracking-[3px] text-white'>
               Next-gen AI solutions for cybersecurity
             </h1>
             <div className='mx-auto max-w-[1090px]'>

@@ -10,7 +10,7 @@ const Team = () => {
           <div className='global-container'>
             {/* Section Content Block */}
             <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[1000px]'>
-              <h2 className='font-raleway text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
+              <h2 className='text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[80px]'>
                 Our professionals help you
               </h2>
             </div>
@@ -35,7 +35,7 @@ const Team = () => {
                 <div className='mt-5'>
                   <Link
                     to='/team-details'
-                    className='font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]'
+                    className='text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]'
                   >
                     Mr. Abraham Maslo
                   </Link>
@@ -157,7 +157,7 @@ const Team = () => {
                 <div className='mt-5'>
                   <Link
                     to='/team-details'
-                    className='font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]'
+                    className='text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]'
                   >
                     Willium Robert
                   </Link>
@@ -279,7 +279,7 @@ const Team = () => {
                 <div className='mt-5'>
                   <Link
                     to='/team-details'
-                    className='font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]'
+                    className='text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]'
                   >
                     Henry Fayol
                   </Link>

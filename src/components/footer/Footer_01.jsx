@@ -20,7 +20,7 @@ const Footer_01 = () => {
               height={60}
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
-            <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
+            <div className='block text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
               Start building software
             </div>
             {/* Footer Slide Item  */}
@@ -32,7 +32,7 @@ const Footer_01 = () => {
               height={60}
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
-            <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
+            <div className='block text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
               Start building software
             </div>
             {/* Footer Slide Item  */}
@@ -44,7 +44,7 @@ const Footer_01 = () => {
               height={60}
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
-            <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
+            <div className='block text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
               Start building software
             </div>
             {/* Footer Slide Item  */}
