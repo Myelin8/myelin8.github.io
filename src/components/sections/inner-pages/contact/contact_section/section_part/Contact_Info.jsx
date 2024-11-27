@@ -6,18 +6,17 @@ const Contact_Info = () => {
       {/* Section Content Block */}
       <div className='mb-8 text-left lg:mb-16 xl:mb-6'>
         <div className='mx-auto md:mx-0 md:max-w-none'>
-          <h2>Get in touch with us directly</h2>
+          <h2>Vamos falar?</h2>
         </div>
       </div>
       {/* Section Content Block */}
       <div className='text-lg leading-[1.4] lg:text-[21px]'>
         <p className='mb-7 last:mb-0'>
-          We are here to help you! Tell us how we can help &amp; we'll be in
-          touch with an expert within the next 24 hours.
+          Estamos aqui para ajudar! Diz-nos como podemos ajudar, entraremos em contacto contigo nas próximas 24 horas.
         </p>
         <ul className='mt-12 flex flex-col gap-y-8 lg:gap-y-12'>
           <li className='flex flex-col gap-y-4 text-2xl font-bold'>
-            Send us an email:
+            Envie-nos um email:
             <a
               href='mailto:geral@myelin8.com'
               className='text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl'
@@ -26,7 +25,7 @@ const Contact_Info = () => {
             </a>
           </li>
           <li className='flex flex-col gap-y-4 text-2xl font-bold'>
-            Follow us:
+            Segue-nos em:
             <ul className='mt-auto flex gap-x-[15px]'>
               <li>
                 <Link

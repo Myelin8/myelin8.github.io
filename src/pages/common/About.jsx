@@ -10,7 +10,7 @@ const About = () => {
     <>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
-        <Breadcrumb title='About Us' link='About' />
+        <Breadcrumb title='Sobre Nós' link='Myelin8' />
         {/*...::: Breadcrumb Section End :::... */}
         {/*...::: Core Value Section Start :::... */}
         <CoreValue />

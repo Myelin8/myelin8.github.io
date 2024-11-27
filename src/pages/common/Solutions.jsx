@@ -9,7 +9,7 @@ const Solutions = () => {
     <>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
-        <Breadcrumb title='Our Solutions' link='Solutions' />
+        <Breadcrumb title='Soluções' link='Soluções' />
         {/*...::: Breadcrumb Section End :::... */}
         <Service />
 

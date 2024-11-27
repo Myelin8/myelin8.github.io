@@ -8,7 +8,7 @@ const Team = () => {
     <>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
-        <Breadcrumb title='Our Team' />
+        <Breadcrumb title='Equipa' />
         {/*...::: Breadcrumb Section End :::... */}
         {/*...::: Team Section Start :::... */}
         <section id='team-section'>
@@ -45,7 +45,7 @@ const Team = () => {
                       to='/team'
                       className='button block w-full rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
                     >
-                      Join our team
+                      Junta-te a nós
                     </Link>
                   </div>
                 </li>

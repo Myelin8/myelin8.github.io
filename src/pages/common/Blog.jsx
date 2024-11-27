@@ -6,7 +6,7 @@ const Blog = () => {
     <>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
-        <Breadcrumb title='Our Blog' />
+        <Breadcrumb title='Blog' />
         {/*...::: Breadcrumb Section End :::... */}
         {/*...::: Blog Section Start :::... */}
         <Blog_Section />

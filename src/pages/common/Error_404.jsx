@@ -16,13 +16,13 @@ const Error_404 = () => {
                   404
                 </h1>
                 <h2 className='mb-[50px]'>
-                  The page you are looking for cannot be found
+                  A página que procuras não foi encontrada
                 </h2>
                 <Link
                   to='/'
                   className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
                 >
-                  Go to homepage
+                  Voltar para a página inicial
                 </Link>
               </div>
               {/* 404 Content */}

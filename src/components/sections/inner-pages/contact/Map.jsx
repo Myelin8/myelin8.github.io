@@ -7,9 +7,9 @@ const Map = () => {
         <div className='global-container'>
           {/* Section Content Block */}
           <div className='mb-10 text-center lg:mb-16 xl:mb-20'>
-            <div className='mx-auto md:max-w-xs lg:max-w-xl xl:max-w-[950px]'>
+            <div className='mx-auto'>
               <h2 className='text-white'>
-                We always welcome our clients to our office
+                Recebemos sempre os nossos clientes no nosso escritório
               </h2>
             </div>
           </div>

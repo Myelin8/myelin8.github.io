@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
-        <Breadcrumb title='Contact Us' link='Contact' />
+        <Breadcrumb title='Contacta-nos' link='Contactos' />
         {/*...::: Breadcrumb Section End :::... */}
         {/*...::: Contact Section Start :::... */}
         <Contact_Section />
