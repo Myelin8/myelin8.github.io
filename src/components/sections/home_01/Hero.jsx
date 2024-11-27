@@ -14,16 +14,18 @@ const Hero = () => {
 
         <div className="relative z-20 flex items-center justify-center h-full text-center text-white">
           <div
-            className="jos overflow-hidden max-w-[900px]"
+            className="jos overflow-hidden max-w-[900px] mt-10"
             data-jos_animation="zoom"
           >
             <img
               src="assets/img/logo.png"
-              alt="hero-dashboard"
-              width="1296"
-              height="640"
-              className="no-select-media h-auto w-full"
+              alt="hero-logo"
+              className="no-select-media w-full px-4 md:px-20"
             />
+
+            <h2 className="hero-description text-sm md:text-xl font-thin tracking-normal opacity-90 mt-6 mb-4 px-4">
+              Ajudamos a sua Marca a transformar Dados e Insgights numa oportunidade de aumentar a Competitividade, Conversão e Sucesso.
+            </h2>
           </div>
           {/* Hero Title 
               <div

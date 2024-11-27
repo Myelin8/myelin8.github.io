@@ -7,13 +7,13 @@ const Service = () => {
       {/*...::: Service Section Start :::... */}
       <section id='section-service'>
         {/* Section Spacer */}
-        <div className='pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]'>
+        <div className='pb-10'>
           {/* Section Container */}
           <div className='global-container'>
             {/* Section Content Block */}
-            <div className='jos mb-10 lg:mb-16 xl:mb-20'>
-              <div className='md:max-w-sm lg:max-w-xl xl:max-w-[746px]'>
-                <h2>Core features that make it valuable</h2>
+            <div className='jos text-center mb-10 lg:mb-16 xl:mb-20'>
+              <div className='font-bold'>
+                <h2>As Nossas Soluções</h2>
               </div>
             </div>
             {/* Section Content Block */}

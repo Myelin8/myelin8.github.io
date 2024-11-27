@@ -1,22 +1,22 @@
 [
   {
     "icon": "FaDatabase",
-    "title": "DataHub",
-    "text": "A centralized repository offering tourism data displayed through intuitive graphs, charts, and dashboards, ensuring insights are always at your fingertips."
+    "title": "Dados",
+    "text": "Compreendemos o que motiva e impulsiona as decisões dos turistas e como as tendências evoluem ao longo do tempo, adquirindo dados que sejam relevantes e chave para a compreensão do mercado."
   },
   {
     "icon": "IoExtensionPuzzle",
-    "title": "Customization",
-    "text": "Tailor your data visualizations by creating personalized graphs and dashboards. Save, compare, and analyze trends effortlessly."
+    "title": "Personalização de Experiências",
+    "text": "Desenvolvemos soluções que capacitam criar experiências memoráveis e personalizadas para os teus clientes."
   },
   {
-    "icon": "FaFilter",
-    "title": "Filters",
-    "text": "Refine your insights using demographic, geographic, and temporal filters to access the exact data you need."
+    "icon": "IoConstruct",
+    "title": "Construção de Recursos",
+    "text": "Produzimos reports, newsletters e outros materiais estratégicos que permitem identificar desafios, compreender oportunidades e apresentar soluções impactantes."
   },
   {
-    "icon": "FaBrain",
-    "title": "AI-Driven Features",
-    "text": "Leverage AI for automated data insights, predictive modeling, and trend analysis, helping you make smarter decisions."
+    "icon": "AiFillProduct",
+    "title": "Consultoria Especializada",
+    "text": "Oferecemos suporte para redesenhar produtos e processos, definir estratégias eficazes, otimizar operações e maximizar o desempenho em mercados altamente competitivos."
   }
 ]

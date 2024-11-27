@@ -1,24 +1,24 @@
-import { Link } from 'react-router-dom';
+import Lottie from 'react-lottie-player';
+import animationData from '../../../../../public/assets/videos/eye.json'
 
 const Content_02 = () => {
   return (
     <section id='content-section-2'>
       {/* Section Spacer */}
-      <div className='pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]'>
+      <div className='py-20'>
         {/* Section Container */}
         <div className='global-container'>
           <div className='grid grid-cols-1 items-center gap-12 md:grid-cols-2 xl:grid-cols-[minmax(0,_1.3fr)_1fr]'>
             {/* Content Left Block */}
             <div
-              className='jos order-2 overflow-hidden rounded-md'
+              className='jos order-2 mx-auto overflow-hidden'
               data-jos_animation='fade-left'
             >
-              <img
-                src='assets/img/th-1/about-image.png'
-                alt='content-image-2'
-                width={526}
-                height={550}
-                className='h-auto w-full'
+              <Lottie
+                loop
+                animationData={animationData}
+                play
+                style={{ width: 350 }}
               />
             </div>
             {/* Content Left Block */}
@@ -26,27 +26,13 @@ const Content_02 = () => {
             <div className='jos order-1' data-jos_animation='fade-right'>
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h2>Delivering the best solutions with AI</h2>
+                <h2>A nossa Visão</h2>
               </div>
               {/* Section Content Block */}
               <div className='text-lg leading-[1.4] lg:text-[21px]'>
                 <p className='mb-7 last:mb-0'>
-                  Our mission is to empower businesses with AI-powered solutions
-                  that increase productivity, improve decision-making and drive
-                  growth.
+                  Na Myelin8, aspiramos a liderar o caminho em inteligência de mercado no setor turístico. O nosso objetivo é capacitar empresas, marcas e destinos para prosperarem num ambiente dinâmico e competitivo, utilizando o poder dos dados e da tecnologia. Queremos ser reconhecidos como a referência em análise de comportamento do consumidor e consultoria estratégica personalizada, ajudando empresas, marcas e destinos a adaptarem-se às mudanças rápidas, anteciparem tendências e destacarem-se como protagonistas num mercado em constante evolução.
                 </p>
-                <p className='mb-7 last:mb-0'>
-                  Since 2016 we have been passionate about helping our clients
-                  harness With a team of AI experts and data scientists their
-                  full potential &amp; stay competitive in an increasingly
-                  digital world.
-                </p>
-                <Link
-                  to='/contact'
-                  className='button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
-                >
-                  Get in touch
-                </Link>
               </div>
             </div>
             {/* Content Right Block */}

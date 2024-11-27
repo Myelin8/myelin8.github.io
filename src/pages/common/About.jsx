@@ -1,9 +1,8 @@
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
-import Hero from '../../components/sections/inner-pages/about/Hero';
-import FunFact from '../../components/sections/inner-pages/about/FunFact';
 import Content_02 from '../../components/sections/inner-pages/about/Content_02';
 import CoreValue from '../../components/sections/inner-pages/about/CoreValue';
-import Contact from '../../components/contact/Contact';
+import Content_01 from '../../components/sections/inner-pages/about/Content_01';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -12,21 +11,36 @@ const About = () => {
         {/*...::: Breadcrumb Section Start :::... */}
         <Breadcrumb title='About Us' link='About' />
         {/*...::: Breadcrumb Section End :::... */}
-        {/*...::: About Us Section Start :::... */}
-        <Hero />
-        {/*...::: About Us Section End :::... */}
-        {/*...::: About Funfact Start :::... */}
-        <FunFact />
-        {/*...::: About Funfact Start :::... */}
-        {/*...::: Content Section Start :::... */}
-        <Content_02 />
-        {/*...::: Content Section End :::... */}
         {/*...::: Core Value Section Start :::... */}
         <CoreValue />
         {/*...::: Core Value Section End :::... */}
-        {/*...::: About Contact Section Start :::... */}
-        <Contact />
-        {/*...::: About Contact Section End :::... */}
+        {/*...::: Content Section Start :::... */}
+        <Content_01 />
+        <Content_02 />
+        {/*...::: Content Section End :::... */}
+
+        <div className="jos p-6 mb-40 sm:p-10 lg:p-20">
+          {/* Section Container */}
+          <div className="global-container bg-black text-center rounded-3xl p-6 sm:p-10 lg:p-20">
+            {/* Section Content Block */}
+            <div className="jos">
+              <div className="mx-auto max-w-[300px] sm:max-w-[400px] md:max-w-[600px] xl:max-w-[680px]">
+                <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl">
+                  Identificas-te com a nossa visão?
+                </h2>
+              </div>
+            </div>
+            {/* Separator */}
+            <div className="global-container">
+              <div className="my-6 sm:my-8 lg:my-10 h-[1px] w-full bg-white opacity-60" />
+            </div>
+            <Link to='/contact' className='button rounded-[50px] border-black bg-white text-black after:bg-colorOrangyRed hover:border-colorOrangyRed'>
+              Let's Partner!
+            </Link>
+          </div>
+          {/* Section Container */}
+        </div>
+
       </main>
     </>
   );

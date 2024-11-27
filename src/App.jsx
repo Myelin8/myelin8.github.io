@@ -10,8 +10,7 @@ const Blog = React.lazy(() => import("./pages/common/Blog"));
 const Blog_details = React.lazy(() => import("./pages/common/Blog_details"));
 const Contact = React.lazy(() => import("./pages/common/Contact"));
 const Error_404 = React.lazy(() => import("./pages/common/Error_404"));
-const Services = React.lazy(() => import("./pages/common/Services"));
-const Services_Details = React.lazy(() => import("./pages/common/Service_Details"));
+const Solutions = React.lazy(() => import("./pages/common/Solutions"));
 const Team = React.lazy(() => import("./pages/common/team/Team"));
 const Team_details = React.lazy(() => import("./pages/common/Team_details"));
 
@@ -42,8 +41,7 @@ function App() {
         <Route path='blog-details' element={Loading(<Blog_details />)} />
         <Route path='team' element={Loading(<Team />)} />
         <Route path='team-details' element={Loading(<Team_details />)} />
-        <Route path='services' element={Loading(<Services />)} />
-        <Route path='service-details' element={Loading(<Services_Details />)} />
+        <Route path='solutions' element={Loading(<Solutions />)} />
         <Route path='error-404' element={Loading(<Error_404 />)} />
         <Route path='*' element={Loading(<Error_404 />)} />
       </Route>
