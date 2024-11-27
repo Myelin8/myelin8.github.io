@@ -20,6 +20,8 @@
   }
 }
 
+
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -239,6 +241,21 @@
   background-image: url(/assets/img/cheveron-right.svg);
   content: var(--tw-content);
   background-size: cover;
+}
+
+.map-container iframe {
+  height: 450px;
+  width: 600px;
+  border: solid 4px black;
+  border-radius: 16px;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .map-container iframe {
+    height: 150px;
+    width: 350px;
+  }
 }
 
 .breadcrumb-nav li:last-child {

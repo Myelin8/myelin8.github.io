@@ -1,7 +1,8 @@
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import Content_01 from '../../components/sections/inner-pages/about/Content_01';
 import Content_02 from '../../components/sections/inner-pages/about/Content_02';
 import CoreValue from '../../components/sections/inner-pages/about/CoreValue';
-import Content_01 from '../../components/sections/inner-pages/about/Content_01';
+import CustomMap from '../../components/sections/inner-pages/about/CustomMap';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -19,7 +20,7 @@ const About = () => {
         <Content_02 />
         {/*...::: Content Section End :::... */}
 
-        <div className="jos p-6 mb-40 sm:p-10 lg:p-20">
+        <div className="jos p-6 mb-20 sm:p-10 lg:p-20">
           {/* Section Container */}
           <div className="global-container bg-black text-center rounded-3xl p-6 sm:p-10 lg:p-20">
             {/* Section Content Block */}
@@ -40,6 +41,12 @@ const About = () => {
           </div>
           {/* Section Container */}
         </div>
+
+        {/*<APIProvider apiKey='{process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
+          <CustomMap />
+        </APIProvider>*/}
+
+        <CustomMap />
 
       </main>
     </>
