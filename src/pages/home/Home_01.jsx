@@ -4,17 +4,18 @@ import Content_02 from '../../components/sections/home_01/Content_02';
 import Content_03 from '../../components/sections/home_01/Content_03';
 import Content_04 from '../../components/sections/home_01/Content_04';
 import { Link } from 'react-router-dom';
+import ScrollBar from '../../components/sections/home_01/ScrollBar';
 
 const Home_01 = () => {
   return (
     <main className='main-wrapper relative overflow-hidden'>
       <Hero />
 
-      <div className='pb-10'>
+      <div className='pb-20'>
         {/* Section Container */}
         <div className='global-container'>
           <div className='items-center text-center'>
-            <h2 className='mb-12'>Conhece quem são os teus clientes, o que os motiva e como tomam as suas decisões</h2>
+            <h2 className='mb-12 md:text-6xl'>Conhece quem são os teus clientes, o que os motiva e como tomam as suas decisões</h2>
 
             <Link to='/contact' className='button rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'>
               Contacta-nos
@@ -22,6 +23,8 @@ const Home_01 = () => {
           </div>
         </div>
       </div>
+
+      <ScrollBar />
 
       <Content_01 />
       <Content_02 />

@@ -1,45 +1,50 @@
 [
   {
-    "img": "assets/img/th-1/blog-main-1.jpg",
-    "category": "Business",
-    "date": "June 12, 2024",
-    "title": "10 ways to supercharge startup with AI integration",
-    "dec": "The rapid advancements in AI have paved the way for startups to revolutionize..."
+    "img": "assets/img/posts/post6.jpg",
+    "category": "Inteligência Artificial",
+    "date": "November 8, 2024",
+    "title": "Lisbon Data & AI Forum 2024",
+    "dec": "Estamos felizes por termos experienciado o Lisbon Data & AI Forum 2024! 🙌 O nosso agradecimento aos sponsors e speakers que fizeram deste evento um sucesso. 🗣️✨",
+    "url": "https://www.linkedin.com/posts/myelin-8_myelin8-innovation-inovacao-activity-7260644800884842496-Tshy?utm_source=share&utm_medium=member_desktop"
   },
   {
-    "img": "assets/img/th-1/blog-main-2.jpg",
-    "category": "Technology",
-    "date": "June 10, 2024",
-    "title": "Testing AI tools to improve product descriptions",
-    "dec": "Amazon is currently testing generative artificial intelligence (AI) tools for..."
+    "img": "assets/img/posts/post5.jpg",
+    "category": "Workshop",
+    "date": "October 31, 2024",
+    "title": "Jovens Empreendedores e as Novas Carreiras no Turismo",
+    "dec": "Tivemos o privilégio de realizar um workshop incrível sobre a Myelin8, abordando o percurso dos Jovens Empreendedores e as Novas Carreiras no Turismo.",
+    "url": "https://www.linkedin.com/posts/myelin-8_myelin8-inovacao-innovation-activity-7257745739643019264-sUdV?utm_source=share&utm_medium=member_desktop"
   },
   {
-    "img": "assets/img/th-1/blog-main-3.jpg",
-    "category": "Marketing",
-    "date": "June 09, 2024",
-    "title": "3 best AI businesses to make money with in 2024",
-    "dec": "Everyone is buzzing about AI and its potential to revolutionize the business..."
+    "img": "assets/img/posts/post4.jpg",
+    "category": "Evento",
+    "date": "October 21, 2024",
+    "title": "Comite Setorial de Turismo",
+    "dec": "A Myelin8 esteve presente no Comite Setorial de Turismo na CIBT no Estoril, e foi uma experiência repleta de inovação e colaboração! 🙌 A sessão  girou em torno do design thinking",
+    "url": "https://www.linkedin.com/posts/myelin-8_myelin8-inovacao-innovation-activity-7254076469566464000-iVTw?utm_source=share&utm_medium=member_desktop"
   },
   {
-    "img": "assets/img/th-1/blog-main-4.jpg",
-    "category": "Artificial Intelligence",
-    "date": "June 07, 2024",
-    "title": "Phrase gives AI-generated content for me at a glance",
-    "dec": "While this is incredibly rewarding and has sharpened my editorial skills..."
+    "img": "assets/img/posts/post3.jpg",
+    "category": "Inovação",
+    "date": "October 4, 2024",
+    "title": "Incubadora Taguspark",
+    "dec": "🚀 A Myelin8 está a descolar! Hoje, temos o prazer de anunciar que a Myelin8 faz oficialmente parte da Incubadora Taguspark! 🎉 Ingressar neste ecossistema",
+    "url": "https://www.linkedin.com/posts/myelin-8_myelin8-inovacao-innovation-activity-7247981925963890689-oqq4?utm_source=share&utm_medium=member_desktop"
   },
   {
-    "img": "assets/img/th-1/blog-main-5.jpg",
-    "category": "Graphics",
-    "date": "June 05, 2024",
-    "title": "Testing out Stabilization AI's free image editing tool",
-    "dec": "Stability AI is the company that created an open-source AI image generator..."
+    "img": "assets/img/posts/post2.jpg",
+    "category": "Evento",
+    "date": "September 27, 2024",
+    "title": "Hospitality Education Awards",
+    "dec": "Que orgulho participar nos Hospitality Education Awards! Esta 4.ª feira, dia 25, a Myelin8 teve o privilégio de estar presente na 8.ª edição dos Hospitality Education Awards.",
+    "url": "https://www.linkedin.com/posts/myelin-8_myelin8-hospitalityeducationawards-hea-activity-7245484995018936321-W3t0?utm_source=share&utm_medium=member_desktop"
   },
-
   {
-    "img": "assets/img/th-1/blog-main-6.jpg",
-    "category": "Business",
-    "date": "June 01, 2024",
-    "title": "How to started using AI-based tools as a designer",
-    "dec": "Acting on Jakob Nielsen’s stunning prediction of AI being the future..."
+    "img": "assets/img/posts/post1.jpg",
+    "category": "Inovação",
+    "date": "September 27, 2024",
+    "title": "Criação da Myelin8",
+    "dec": "🧠🚀 Apresentamos a Myelin8! 🚀🧠 Em junho, demos início a um projeto que promete transformar o setor do turismo: Myelin8. A nossa missão?",
+    "url": "https://www.linkedin.com/posts/myelin-8_myelin8-inovaaexaeto-innovation-activity-7245417743796060160-2WSS?utm_source=share&utm_medium=member_desktop"
   }
 ]

@@ -1,16 +1,16 @@
-const Content_02 = () => {
+const Content_04 = () => {
   return (
     <>
       {/*...::: Content Section Start_2 :::... */}
-      <section id='content-section-2'>
+      <section id='porque'>
         {/* Section Spacer */}
-        <div className='pb-20 xl:pb-[150px]'>
+        <div className='pb-28 xl:pb-[150px]'>
           {/* Section Container */}
           <div className='global-container'>
             <div className='grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-20 xl:grid-cols-[minmax(0,_1.2fr)_1fr] xl:gap-28 xxl:gap-32'>
               {/* Content Left Block */}
               <div
-                className='jos order-2 overflow-hidden rounded-md'
+                className='jos order-2 overflow-hidden rounded-md hidden md:block'
                 data-jos_animation='fade-left'
               >
                 <img
@@ -70,4 +70,4 @@ const Content_02 = () => {
   );
 };
 
-export default Content_02;
+export default Content_04;

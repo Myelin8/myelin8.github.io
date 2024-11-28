@@ -20,6 +20,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
     if (e.target.tagName === 'A') {
       const content = e.target.firstChild.textContent;
       setMenuTitle(content);
+      setMobileMenu(false);
     } else {
       const content = e.target.parentElement.textContent;
       setMenuTitle(content);
@@ -32,6 +33,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
     if (e.target.tagName === 'A') {
       const content = e.target.firstChild.textContent;
       setMenuTitle(content);
+      setMobileMenu(false);
     } else {
       const content = e.target.parentElement.textContent;
       setMenuTitle(content);
@@ -108,7 +110,10 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
             </ul>
           </li>
           */}
-          <li className='nav-item'>
+          <li
+            onClick={(e) => handleSubMenu(e, 3)}
+            className='nav-item'
+          >
             <Link to='/solutions' className='nav-link-item'>
               Soluções
             </Link>
@@ -173,6 +178,16 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
               */}
             </ul>
           </li>
+          {mobileMenu && (
+            <li
+              onClick={(e) => handleSubMenu(e, 4)}
+              className='nav-item'
+            >
+              <Link to='/contact' className='nav-link-item'>
+                Contacta-nos
+              </Link>
+            </li>
+          )}
         </ul>
       </nav>
     </div>

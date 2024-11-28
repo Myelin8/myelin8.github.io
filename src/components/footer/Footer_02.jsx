@@ -7,7 +7,7 @@ const Footer_02 = () => {
   };
 
   return (
-    <footer id='footer-2' className='relative'>
+    <footer id='footer-2' className='relative z-20'>
       <div className="absolute -top-[77px] left-1/2 z-10 h-[77px] w-full -translate-x-1/2 bg-[url('/assets/img/th-2/arc-bottom-shape-1.svg')] bg-cover bg-center bg-no-repeat"></div>
       <div className='relative z-[1] overflow-hidden bg-black text-white'>
         {/* Section Container */}
@@ -24,6 +24,7 @@ const Footer_02 = () => {
               </div>
               {/* Section Content Block */}
               {/* Footer Subscriber Form */}
+              {/* 
               <form onSubmit={handleSubmit}>
                 <div className='relative mx-auto h-[60px] max-w-[500px]'>
                   <input
@@ -46,6 +47,7 @@ const Footer_02 = () => {
                   </button>
                 </div>
               </form>
+              */}
               {/* Footer Subscriber Form */}
             </div>
             {/* Section Container */}
@@ -92,10 +94,10 @@ const Footer_02 = () => {
                     </li>
                     <li>
                       <Link
-                        to='/blog'
+                        to='/social-media'
                         className='transition-all duration-300 ease-linear hover:text-colorLinenRuffle'
                       >
-                        Blog
+                        Redes Sociais
                       </Link>
                     </li>
                     <li>
@@ -125,7 +127,7 @@ const Footer_02 = () => {
                   </h4>
                   {/* Footer Title */}
                   {/* Footer Navbar */}
-                  <ul className='flex flex-col gap-y-[15px]'>
+                  <ul className='flex flex-col gap-y-[15px] text-start mx-auto'>
                     <li>
                       <Link
                         rel='noopener noreferrer'

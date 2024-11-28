@@ -10,7 +10,7 @@ const About = () => {
     <>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
-        <Breadcrumb title='Sobre Nós' link='Myelin8' />
+        <Breadcrumb title='Myelin8' link='Sobre Nós' />
         {/*...::: Breadcrumb Section End :::... */}
         {/*...::: Core Value Section Start :::... */}
         <CoreValue />
@@ -24,7 +24,7 @@ const About = () => {
           {/* Section Container */}
           <div className="global-container bg-black text-center rounded-3xl p-6 sm:p-10 lg:p-20">
             {/* Section Content Block */}
-            <div className="jos">
+            <div>
               <div className="mx-auto max-w-[300px] sm:max-w-[400px] md:max-w-[600px] xl:max-w-[680px]">
                 <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl">
                   Identificas-te com a nossa visão?

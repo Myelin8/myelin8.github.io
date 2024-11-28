@@ -16,7 +16,7 @@ const Contact_Info = () => {
         </p>
         <ul className='mt-12 flex flex-col gap-y-8 lg:gap-y-12'>
           <li className='flex flex-col gap-y-4 text-2xl font-bold'>
-            Envie-nos um email:
+            Envia-nos um email:
             <a
               href='mailto:geral@myelin8.com'
               className='text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl'

@@ -23,7 +23,7 @@ const Service_Block = ({ icon, title, text }) => {
   };
 
   return (
-    <Link to='/service-details' className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black'>
+    <div className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black'>
       <li className='group-hover:text-colorLinenRuffle'>
         <div className='relative mb-9 h-[70px] w-[70px]'>
           {ic}
@@ -33,7 +33,7 @@ const Service_Block = ({ icon, title, text }) => {
         </h3>
         <p className='duration-300 group-hover:text-white'>{text}</p>
       </li>
-    </Link>
+    </div>
   );
 };
 

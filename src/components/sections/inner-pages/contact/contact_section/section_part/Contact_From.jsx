@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import swal from 'sweetalert';
+import emailjs from "emailjs-com";
 
 const Contact_From = () => {
   const [input, setInput] = useState({
@@ -18,18 +19,48 @@ const Contact_From = () => {
     e.preventDefault();
 
     if (
-      input.email === '' ||
-      input.password === '' ||
-      input.phone === '' ||
-      input.message === ''
+      input.email === "" ||
+      input.phone === "" ||
+      input.message === "" ||
+      input.name === ""
     ) {
-      swal('Opes', 'Please fill required fields', 'error');
+      swal("Ups", "Preenche todos os campos obrigatórios por favor", "error");
       return;
     }
+
+    // EmailJS Integration
+    emailjs
+      .send(
+        "service_whvwkf9",
+        "template_pu9zusc",
+        {
+          name: input.name,
+          email: input.email,
+          phone: input.phone,
+          company: input.company || "N/A",
+          message: input.message,
+        },
+        "lxxklnGJmxM7mKr1P"
+      )
+      .then(
+        (response) => {
+          swal("Success", "Mensagem enviada com sucesso!", "success");
+          setInput({
+            name: "",
+            email: "",
+            phone: "",
+            company: "",
+            message: "",
+          });
+        },
+        (error) => {
+          swal("Error", "Falha ao enviar a mensagem, tenta novamente.", "error");
+        }
+      );
   };
 
   return (
-    <div className='order-1 block rounded-lg bg-white px-[30px] py-[50px] shadow-[0_4px_60px_0_rgba(0,0,0,0.1)] md:order-2'>
+    <div className='order-2 block rounded-lg bg-white px-[30px] py-[50px] shadow-[0_4px_60px_0_rgba(0,0,0,0.1)] md:order-2'>
       {/* Contact Form */}
       <form onSubmit={handleSubmit} className='flex flex-col gap-y-5'>
         {/* Form Group */}

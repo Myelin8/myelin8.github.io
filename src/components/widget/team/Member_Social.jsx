@@ -9,11 +9,12 @@ const Member_Social = ({ mail, linkedin, calendly }) => {
       <li>
         <Link
           rel='noopener noreferrer'
+          target='_blank'
           to={calendly}
-          className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
+          className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black transition-all duration-300 hover:bg-colorViolet'
         >
           <div className='text-white'>
-            <FaCalendarAlt size={14}/>
+            <FaCalendarAlt size={14} />
           </div>
         </Link>
       </li>
@@ -22,7 +23,7 @@ const Member_Social = ({ mail, linkedin, calendly }) => {
           rel='noopener noreferrer'
           target='_blank'
           to={`mailto:${mail}`}
-          className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
+          className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black transition-all duration-300 hover:bg-colorViolet'
         >
           <div className='text-white'>
             <IoIosMail />
@@ -33,7 +34,7 @@ const Member_Social = ({ mail, linkedin, calendly }) => {
         <Link
           rel='noopener noreferrer'
           to={linkedin}
-          className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
+          className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black transition-all duration-300 hover:bg-colorViolet'
         >
           <img
             src='assets/img/th-1/linkedin-icon-white.svg'

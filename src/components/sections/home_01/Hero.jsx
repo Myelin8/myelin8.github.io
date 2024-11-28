@@ -1,16 +1,30 @@
-import { Link } from 'react-router-dom';
-import { Autoplay } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { useState, Suspense } from "react";
+import { Icon } from "@iconify/react";
 
 const Hero = () => {
+
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+
   return (
     <>
       {/*...::: Hero Section Start :::... */}
-      <section id='section-hero' className="relative h-screen mb-40">
-        <video autoPlay loop muted playsInline className="w-full h-screen object-cover absolute top-0 left-0 z-10">
-          <source src='/assets/videos/background.mp4' type='video/mp4' />
+      <section id='section-hero' className="relative h-screen mb-20">
+
+        {!isVideoLoaded && (
+          <div className="h-screen w-full bg-colorOrangyRed text-white flex justify-center items-center z-20">
+            <Icon icon="line-md:loading-loop" className="w-20 h-20" />
+          </div>
+        )}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-screen object-cover absolute top-0 left-0 z-20"
+          onCanPlayThrough={() => setIsVideoLoaded(true)}
+        >
+          <source src="/assets/videos/background.mp4" type="video/mp4" />
         </video>
-        <div className="absolute rotate-180 -bottom-[75px] left-1/2 z-10 h-[77px] w-full -translate-x-1/2 bg-[url('/assets/img/th-2/arc-bottom-shape-1.svg')] bg-cover bg-center bg-no-repeat"></div>
 
         <div className="relative z-20 flex items-center justify-center h-full text-center text-white">
           <div
@@ -24,7 +38,7 @@ const Hero = () => {
             />
 
             <h2 className="hero-description text-sm md:text-xl font-thin tracking-normal opacity-90 mt-6 mb-4 px-4">
-              Ajudamos a sua Marca a transformar Dados e Insgights numa oportunidade de aumentar a Competitividade, Conversão e Sucesso.
+              Ajudamos a transformar Dados e Insights numa oportunidade de aumentar a Competitividade, Conversão e Sucesso.
             </h2>
           </div>
           {/* Hero Title 

@@ -1,8 +1,8 @@
-const Content_01 = () => {
+const Content_03 = () => {
   return (
     <>
       {/*...::: Content Section Start_1 :::... */}
-      <section id='content-section-1'>
+      <section id='metodologia'>
         {/* Section Spacer */}
         <div className='pb-20 xl:pb-[150px]'>
           {/* Section Container */}
@@ -75,4 +75,4 @@ const Content_01 = () => {
   );
 };
 
-export default Content_01;
+export default Content_03;

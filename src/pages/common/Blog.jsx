@@ -6,11 +6,16 @@ const Blog = () => {
     <>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
-        <Breadcrumb title='Blog' />
+        <Breadcrumb title='Blog' link='Media' />
         {/*...::: Breadcrumb Section End :::... */}
         {/*...::: Blog Section Start :::... */}
-        <Blog_Section />
-        {/*...::: Blog Section End :::... */}
+
+        <h2 className='text-center text-4xl font-bold text-black mb-40'>
+          Brevemente...
+        </h2>
+
+        {/*<Blog_Section />
+        ...::: Blog Section End :::... */}
       </main>
     </>
   );

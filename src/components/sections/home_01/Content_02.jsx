@@ -2,7 +2,7 @@ const Content_02 = () => {
   return (
     <>
       {/*...::: Content Section Start_2 :::... */}
-      <section id='content-section-2'>
+      <section id='distincao'>
         {/* Section Spacer */}
         <div className='pb-20 xl:pb-[150px]'>
           {/* Section Container */}

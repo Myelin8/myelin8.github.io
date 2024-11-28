@@ -12,7 +12,7 @@ const Content_01 = () => {
   return (
     <>
       {/*...::: Content Section Start_1 :::... */}
-      <section id='content-section-1'>
+      <section id='proposito'>
         {/* Section Spacer */}
         <div className='pb-20 xl:pb-[150px]'>
           {/* Section Container */}
@@ -23,9 +23,11 @@ const Content_01 = () => {
                 className='jos order-2 overflow-hidden rounded-md md:order-1'
                 data-jos_animation='fade-left'
               >
-                <video autoPlay loop muted playsInline className="w-full no-select-media" ref={videoRef}>
-                  <source src='/assets/videos/blocks.mp4' type='video/mp4'/>
-                </video>
+                <img
+                  src='assets/img/th-1/blocks.svg'
+                  alt='content-image-1'
+                  width='400'
+                />
               </div>
               {/* Content Left Block */}
               {/* Content Right Block */}
